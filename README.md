@@ -29,7 +29,7 @@ Las modalidades son:
 Para usarlo copie la carpeta dist y lib y el archivo config.json a su proyecto luego incluya las siguientes lineas
 
 ```
-<link rel="stylesheet" type="text/css" href="dist/css/sna.css">`<!-- En el Head -->
+<link rel="stylesheet" type="text/css" href="dist/css/sna.css"><!-- En el Head -->
 <script src="dist/js/sna.js"></script> <!-- Antes del cierre del Body -->
 ```
 
@@ -52,7 +52,7 @@ solo basta con colocar lo siguiente en cualquier parte del código de nuestro si
 </div>
 ```
 
-En caso de que sea un grupo de botones de compartir pdemos usar la siguiente sintaxis:
+En caso de que sea un grupo de botones de compartir podemos usar la siguiente sintaxis:
 
 ```
 <div data-role="snashare"
