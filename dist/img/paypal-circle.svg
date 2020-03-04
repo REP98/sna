@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   xml:space="preserve"
+   sodipodi:docname="paypal-circle.svg"
+   width="512"
+   height="512"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata59"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs57" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="743"
+   id="namedview55"
+   showgrid="false"
+   inkscape:showpageshadow="false"
+   inkscape:zoom="0.49795332"
+   inkscape:cx="26.106865"
+   inkscape:cy="236.97"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Capa_1" />
+<ellipse
+   style="fill:#f3f2f2;stroke-width:1.07415044"
+   cx="254.03987"
+   cy="256.95602"
+   id="circle2"
+   rx="254.03987"
+   ry="255.04399" />
+<g
+   id="g10"
+   transform="matrix(1.0720339,0,0,1.0762712,0,1.9120317)">
+	<path
+   style="fill:#1a80ad"
+   d="m 347.363,197.142 c -9.86,0 -17.657,2.615 -23.622,3.809 l -1.833,14.989 c 2.982,-1.433 12.385,-4.041 20.183,-4.288 7.802,-0.236 12.385,1.429 10.78,8.093 -23.161,0 -38.761,4.752 -41.971,19.742 -4.591,25.695 23.622,24.984 34.862,13.8 l -1.373,6.181 h 20.64 l 8.943,-40.924 c 3.661,-17.361 -12.159,-21.638 -26.609,-21.402 z m 1.377,41.87 c -1.145,5.47 -5.5,7.85 -10.776,8.093 -4.587,0.236 -8.715,-3.817 -5.732,-8.572 2.294,-4.041 8.718,-4.992 12.613,-4.992 1.605,0 3.442,0 5.051,0 -0.468,1.902 -0.7,3.567 -1.156,5.471 z"
+   id="path4"
+   inkscape:connector-curvature="0" />
+	<polygon
+   style="fill:#1a80ad"
+   points="374.55,259.472 395.515,259.472 412.806,180.963 391.628,180.963 "
+   id="polygon6" />
+	<path
+   style="fill:#1a80ad"
+   d="m 295.296,181.202 h -38.387 l -17.01,78.27 h 22.293 l 5.751,-25.93 h 15.858 c 15.633,0 28.505,-9.515 31.951,-25.695 3.91,-18.319 -9.422,-26.645 -20.456,-26.645 z m -0.681,26.645 c -1.381,5.946 -7.36,10.701 -13.111,10.701 h -10.342 l 4.599,-21.41 h 11.031 c 5.75,0.004 9.196,4.76 7.823,10.709 z"
+   id="path8"
+   inkscape:connector-curvature="0" />
+</g>
+<g
+   id="g22"
+   transform="matrix(1.0720339,0,0,1.0762712,0,1.9120317)">
+	<path
+   style="fill:#1a5b80"
+   d="m 146.34,197.142 c -9.744,0 -17.448,2.615 -23.117,3.809 l -1.804,14.986 c 2.72,-1.433 12.007,-4.041 19.712,-4.288 7.704,-0.236 12.236,1.429 10.87,8.093 -22.877,0 -38.282,4.752 -41.455,19.742 -4.535,25.695 23.33,24.984 34.207,13.8 l -1.355,6.181 h 20.617 l 8.834,-40.924 c 3.62,-17.358 -12.241,-21.635 -26.509,-21.399 z m 1.587,41.87 c -1.137,5.47 -5.673,7.85 -10.874,8.093 -4.531,0.236 -8.385,-3.817 -5.437,-8.572 2.26,-4.041 8.606,-4.992 12.232,-4.992 1.815,0 3.398,0 5.216,0 -0.464,1.902 -0.913,3.567 -1.137,5.471 z"
+   id="path12"
+   inkscape:connector-curvature="0" />
+	<polygon
+   style="fill:#1a5b80"
+   points="198.231,285.504 175.182,285.504 190.246,259.862 181.827,198.272 202.444,198.272 205.771,234.721 225.939,198.272 247.214,198.272 "
+   id="polygon14" />
+	<path
+   style="fill:#1a5b80"
+   d="M 95.063,181.202 H 56.575 l -17.055,78.27 h 22.585 l 5.53,-25.93 h 16.131 c 15.442,0 28.348,-9.515 31.805,-25.695 3.918,-18.319 -9.215,-26.645 -20.508,-26.645 z m -0.692,26.645 c -1.381,5.946 -7.139,10.701 -12.905,10.701 h -10.6 l 4.842,-21.41 h 11.061 c 5.529,0.004 9.215,4.76 7.602,10.709 z"
+   id="path16"
+   inkscape:connector-curvature="0" />
+	<path
+   style="fill:#1a5b80"
+   d="m 417.333,191.114 v -9.261 h -3.454 v -1.242 h 8.322 v 1.242 h -3.472 v 9.261 z"
+   id="path18"
+   inkscape:connector-curvature="0" />
+	<path
+   style="fill:#1a5b80"
+   d="m 423.575,191.114 v -10.503 h 2.084 l 2.488,7.431 c 0.232,0.692 0.393,1.205 0.501,1.545 0.12,-0.378 0.307,-0.939 0.554,-1.676 l 2.526,-7.3 h 1.867 v 10.503 h -1.336 v -8.793 l -3.061,8.793 h -1.246 l -3.042,-8.939 v 8.939 z"
+   id="path20"
+   inkscape:connector-curvature="0" />
+</g>
+<g
+   id="g24"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g26"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g28"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g30"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g32"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g34"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g36"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g38"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g40"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g42"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g44"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g46"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g48"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g50"
+   transform="translate(0,38.059998)">
+</g>
+<g
+   id="g52"
+   transform="translate(0,38.059998)">
+</g>
+</svg>

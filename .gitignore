@@ -1,0 +1,4 @@
+*.sublime*
+ignore/
+vendor/
+*_old

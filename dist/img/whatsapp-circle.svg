@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 512 512"
+   version="1.1"
+   sodipodi:docname="whatsapp-circle.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>whatsapp-flat</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter833">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood823" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite825" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur827" />
+      <feOffset
+         dx="2"
+         dy="2"
+         result="offset"
+         id="feOffset829" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite831" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="743"
+     id="namedview12"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="28.20339"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="WhatsApp" />
+  <title
+     id="title2">whatsapp-flat</title>
+  <g
+     id="WhatsApp">
+    <circle
+       id="back"
+       cx="256"
+       cy="256"
+       r="256"
+       fill="#25d366" />
+    <g
+       id="whatsApp-2"
+       data-name="whatsApp"
+       style="filter:url(#filter833)">
+      <path
+         d="M112.64,400.05l20.25-74a142.49,142.49,0,0,1-19.06-71.37c0-78.71,64.07-142.75,142.76-142.75A142.79,142.79,0,0,1,399.36,254.82c0,78.71-64.08,142.76-142.76,142.76h-.06a142.61,142.61,0,0,1-68.22-17.38Zm79.18-45.7,4.34,2.57a118.49,118.49,0,0,0,60.39,16.54h.05c65.4,0,118.63-53.23,118.66-118.66a118.66,118.66,0,1,0-219.18,63.05l2.82,4.49-12,43.79Z"
+         fill="#fff"
+         id="path5" />
+      <path
+         d="M328.52,288.76c-.89-1.49-3.27-2.38-6.84-4.17S300.58,274.18,297.31,273s-5.65-1.79-8,1.79-9.21,11.61-11.29,14-4.16,2.68-7.73.89-15.06-5.55-28.68-17.71c-10.61-9.46-17.77-21.14-19.84-24.71s-.22-5.5,1.56-7.28c1.61-1.6,3.57-4.17,5.35-6.25a24.49,24.49,0,0,0,3.57-6,6.58,6.58,0,0,0-.3-6.25c-.89-1.79-8-19.34-11-26.48-2.89-7-5.84-6-8-6.13s-4.46-.12-6.84-.12a13.11,13.11,0,0,0-9.51,4.46c-3.27,3.57-12.48,12.2-12.48,29.76s12.78,34.52,14.57,36.9,25.15,38.41,60.94,53.86a204.73,204.73,0,0,0,20.34,7.52,48.89,48.89,0,0,0,22.46,1.41c6.86-1,21.11-8.63,24.08-17S329.41,290.25,328.52,288.76Z"
+         fill="#fff"
+         fill-rule="evenodd"
+         id="path7" />
+    </g>
+  </g>
+</svg>

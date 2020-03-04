@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 512 512"
+   version="1.1"
+   sodipodi:docname="deviantart-square.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>deviantart-square-flat</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="743"
+     id="namedview8"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="28.20339"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <title
+     id="title2">deviantart-square-flat</title>
+  <g
+     id="Deviantart">
+    <rect
+       id="back"
+       width="512"
+       height="512"
+       fill="#05cc47" />
+    <polygon
+       id="Deviantart-2"
+       data-name="Deviantart"
+       points="344.73 164.77 344.73 112.64 344.72 112.64 292.6 112.64 287.4 117.89 262.8 164.77 255.06 169.98 167.27 169.98 167.27 241.58 215.53 241.58 219.83 246.78 167.27 347.23 167.27 399.36 167.28 399.36 219.4 399.36 224.6 394.11 249.2 347.23 256.94 342.02 344.73 342.02 344.73 270.42 296.47 270.42 292.17 265.19 344.73 164.77"
+       fill="#fff" />
+  </g>
+</svg>

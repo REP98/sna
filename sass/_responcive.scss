@@ -1,0 +1,36 @@
+/**
+ * =============================================================================================
+ * Responcive
+ * =============================================================================================
+ */
+//MOVIL
+@media screen and (max-width: 576px) {
+	.sna{
+		& ul{
+			flex-wrap: wrap;
+		}
+		& li.icon-text{
+			& a:not(.image-content){
+				padding: 0.35rem;
+			}
+			& a.image-content{
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+			&.small{
+				flex-basis: 24px;
+				width: 24px;
+			}
+			&.medium{
+				flex-basis: 32px;
+				width: 32px;
+			}
+			&.large{
+				flex-basis: 48px;
+				width: 48px;
+			}
+			& span{display: none;}
+		}
+
+	}
+}

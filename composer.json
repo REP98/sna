@@ -1,0 +1,15 @@
+{
+    "name": "rep98/sna",
+    "description": "Social Networks Admin",
+    "type": "plugin",
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Pérez",
+            "email": "delfinmundo@gmail.com"
+        }
+    ]
+}

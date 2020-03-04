@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   xml:space="preserve"
+   sodipodi:docname="vk-circle.svg"
+   width="512"
+   height="512"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata44"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs42"><filter
+     style="color-interpolation-filters:sRGB;"
+     inkscape:label="Drop Shadow"
+     id="filter861"><feFlood
+       flood-opacity="0.498039"
+       flood-color="rgb(0,0,0)"
+       result="flood"
+       id="feFlood851" /><feComposite
+       in="flood"
+       in2="SourceGraphic"
+       operator="in"
+       result="composite1"
+       id="feComposite853" /><feGaussianBlur
+       in="composite1"
+       stdDeviation="1"
+       result="blur"
+       id="feGaussianBlur855" /><feOffset
+       dx="2"
+       dy="2"
+       result="offset"
+       id="feOffset857" /><feComposite
+       in="SourceGraphic"
+       in2="offset"
+       operator="over"
+       result="composite2"
+       id="feComposite859" /></filter></defs><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="743"
+   id="namedview40"
+   showgrid="false"
+   inkscape:showpageshadow="false"
+   inkscape:zoom="0.74368606"
+   inkscape:cx="191.23499"
+   inkscape:cy="304.22841"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g7" />
+<g
+   id="g7"
+   transform="matrix(4.559322,0,0,4.559322,0,0.46230876)">
+	<g
+   id="g3"
+   style="fill:#4a76a8;fill-opacity:1">
+		<circle
+   id="XMLID_11_"
+   style="fill:#4a76a8;fill-opacity:1"
+   cx="56.098"
+   cy="56.098"
+   r="56.098" />
+	</g>
+	<path
+   style="clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd;filter:url(#filter861)"
+   d="m 53.979,80.702 h 4.403 c 0,0 1.33,-0.146 2.009,-0.878 0.625,-0.672 0.605,-1.934 0.605,-1.934 0,0 -0.086,-5.908 2.656,-6.778 2.703,-0.857 6.174,5.71 9.853,8.235 2.782,1.911 4.896,1.492 4.896,1.492 l 9.837,-0.137 c 0,0 5.146,-0.317 2.706,-4.363 -0.2,-0.331 -1.421,-2.993 -7.314,-8.463 -6.168,-5.725 -5.342,-4.799 2.088,-14.702 4.525,-6.031 6.334,-9.713 5.769,-11.29 -0.539,-1.502 -3.867,-1.105 -3.867,-1.105 l -11.076,0.069 c 0,0 -0.821,-0.112 -1.43,0.252 -0.595,0.357 -0.978,1.189 -0.978,1.189 0,0 -1.753,4.667 -4.091,8.636 -4.932,8.375 -6.904,8.817 -7.71,8.297 -1.875,-1.212 -1.407,-4.869 -1.407,-7.467 0,-8.116 1.231,-11.5 -2.397,-12.376 -1.204,-0.291 -2.09,-0.483 -5.169,-0.514 -3.952,-0.041 -7.297,0.012 -9.191,0.94 -1.26,0.617 -2.232,1.992 -1.64,2.071 0.732,0.098 2.39,0.447 3.269,1.644 1.135,1.544 1.095,5.012 1.095,5.012 0,0 0.652,9.554 -1.523,10.741 -1.493,0.814 -3.541,-0.848 -7.938,-8.446 -2.253,-3.892 -3.954,-8.194 -3.954,-8.194 0,0 -0.328,-0.804 -0.913,-1.234 -0.71,-0.521 -1.702,-0.687 -1.702,-0.687 L 20.34,40.781 c 0,0 -1.58,0.044 -2.16,0.731 -0.516,0.611 -0.041,1.875 -0.041,1.875 0,0 8.24,19.278 17.57,28.993 8.555,8.907 18.27,8.322 18.27,8.322 z"
+   id="path5"
+   inkscape:connector-curvature="0" />
+</g>
+<g
+   id="g9"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g11"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g13"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g15"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g17"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g19"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g21"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g23"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g25"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g27"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g29"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g31"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g33"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g35"
+   transform="translate(0,399.804)">
+</g>
+<g
+   id="g37"
+   transform="translate(0,399.804)">
+</g>
+</svg>

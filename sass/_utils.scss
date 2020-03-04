@@ -1,0 +1,209 @@
+/**
+ * =============================================================================================
+ * Utils
+ * =============================================================================================
+ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; 
+}
+*{
+	will-change: auto;
+}
+div{
+	position: relative;
+}
+.shadow-drop{
+	box-shadow: 2px 2px 2px 0 rgba(227, 228, 229, 0.7),
+				-0.5px 0 1px 0 rgba(227, 228, 229, 0.7)
+}
+.btn{
+	cursor: pointer;
+	display: inline-block;
+	font:{
+		weight: 400;
+		size: 0.85rem;
+	}
+	line-height: 34px;
+	height: 36px;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	border: 1px solid #eee;
+	padding: 0 0.75rem;
+	transition: all 0.15s ease-in-out;
+	background-color: #d8d8d8;
+	color: #1a1a1a;
+	outline: none;
+	position: relative;
+	border-radius: 8px;
+	
+
+	&:hover,
+	&:focus,
+	&:active{
+		box-shadow: 0 3px 0 rgba(black,0.14), 0 1px 7px 0 rgba(black, 0.12), 0 3px 1px -1px rgba(black, 0.2);
+		outline: 0 none;
+	}
+}
+.form{
+	label{
+		display: flex;
+		width: 100%;
+		height: 1.2rem;
+		font-size: 1rem;
+		margin: 0.5rem 4px;
+	}
+}
+.input{
+	background-color: #fff;
+	display: flex;
+	border-radius: 8px;
+	border: 1px solid #dfe1e5;
+	box-shadow: none;
+	width: 100%;
+	min-height: 44px;
+	height: auto;
+	margin: 0 auto 0.5rem;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	flex-flow: row nowrap;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	padding: 0;
+	position: relative;
+	font-size: 1rem;
+	line-height: 36px;
+	background-clip: padding-box;
+	min-width: 0px;
+
+	& textarea,
+	& input{
+		background-color: #fff;
+		border: none;
+		margin: auto 4px;
+		padding: 0;
+		color: rgba(black, 0.87);
+		word-wrap: break-word;
+		outline: none;
+		display: flex;
+		flex: 100%;
+		-webkit-tap-highlight-color: transparent;
+		-webkit-box-ordinal-group: 3;
+		-ms-flex-order: 2; 
+		order: 2;
+		height: 34px;
+		-webkit-appearance: none;
+		   -moz-appearance: none;
+		   		appearance: none;
+		position: relative;
+		width: 100%;
+		font-size: 1rem;
+		line-height: 34px;
+		background-clip: padding-box;
+		min-width: 0px;
+
+
+		&:focus{
+			box-shadow: none !important;
+			outline: none !important;
+		}
+
+	}
+	& textarea{
+		height: auto;
+		min-height: 70px;
+		line-height: 1.2;
+		padding: 0.2rem 0.5rem;
+	}
+	&.taginput{
+		border-bottom: 1px solid #eee;
+		overflow-x: auto;
+		&.focus{
+			border: none !important;
+		}
+		& input{
+			border: none !important;
+			width: auto;
+		}
+		&::after{
+			top: 100%;
+			bottom: 0px !important;
+		}
+	}
+}
+.justify-content{
+	&-center{ justify-content: center !important; }
+	&-left{ justify-content: left !important; }
+	&-right{ justify-content: right !important; }
+}
+.sna-error{
+	display: flex;
+	flex: 0;
+	font-size: 0.8rem;
+	width: 100%;
+	background-color: #d82020;
+	color: #fff;
+	border-radius: 8px 0 0 8px;
+	padding-left: 1rem;
+	float: left;
+	overflow: hidden;
+	-webkit-box-ordinal-group: 1;
+		-ms-flex-order: 1; 
+		order: 1;
+}
+.tags{
+	display: inline-flex;
+	height: 42px;
+	font-size: 13px;
+	font-weight: 500;
+	color: rgba(#000,0.6);
+	line-height: 38px;
+	padding: 0 12px;
+	border-radius: 8px;
+	background-color: #ccc;
+	margin: 0;
+	
+	& .icons,
+	& [class^="sna-icon-"],
+	& [class*="sna-icon-"]{
+		float: left;
+		margin: 0 8px 0 -2px;
+		height: 38px;
+		width: 25px;
+		border-radius: 50%;
+		line-height: 32px;
+	}
+
+	& img{
+		float: left;
+		margin: 0 8px 0 -12px;
+		height: 32px;
+		width: 32px;
+		border-radius: 50%;							
+	}
+
+	& .close{
+		cursor: pointer;
+		float: right;
+		font-size: 16px;
+		line-height: 38px;
+		padding-left: 8px;
+		text-align: right;
+		margin-right: -10px;
+		@extend [class^="sna-icon-"];
+		@extend .sna-icon-x;
+		
+		&::before{
+			line-height: 32px !important;
+		}
+		&:hover{
+			color: #fff;
+		}
+	}
+	&.active{
+		background-color: map-get($colors, 'google-green');
+	}
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 512 512"
+   version="1.1"
+   sodipodi:docname="circle-twitter-icon-8381.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>twitter-flat</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter832">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood822" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite824" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur826" />
+      <feOffset
+         dx="2"
+         dy="2"
+         result="offset"
+         id="feOffset828" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite830" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="743"
+     id="namedview8"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="218.0339"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Twitter" />
+  <title
+     id="title2">twitter-flat</title>
+  <g
+     id="Twitter">
+    <circle
+       id="back"
+       cx="256"
+       cy="256"
+       r="256"
+       fill="#55acee" />
+    <path
+       id="Twitter-2"
+       data-name="Twitter"
+       d="M399.36,167.08a117.51,117.51,0,0,1-33.78,9.26,59,59,0,0,0,25.86-32.54,117.78,117.78,0,0,1-37.35,14.27,58.88,58.88,0,0,0-100.24,53.65A167,167,0,0,1,132.6,150.26a58.89,58.89,0,0,0,18.2,78.54,58.57,58.57,0,0,1-26.64-7.36c0,.25,0,.49,0,.74a58.86,58.86,0,0,0,47.19,57.68,59,59,0,0,1-26.57,1,58.89,58.89,0,0,0,55,40.85,118,118,0,0,1-73.06,25.18,119.64,119.64,0,0,1-14-.82,166.48,166.48,0,0,0,90.17,26.43c108.2,0,167.37-89.63,167.37-167.37q0-3.83-.17-7.61A119.46,119.46,0,0,0,399.36,167.08Z"
+       fill="#fff"
+       style="filter:url(#filter832)" />
+  </g>
+</svg>

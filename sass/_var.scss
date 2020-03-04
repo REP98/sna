@@ -1,0 +1,259 @@
+// File Var
+
+// =============================================================================================
+// COLORES
+// =============================================================================================
+
+$colors: () !default;
+$colors: map-merge((
+	sna:#07aef0,
+	"white":#fff,
+	"black":#1a1a1a,
+	facebook: #1877f2,
+	"facebook-dark": #3b5998,
+	twitter: #1da1f2,
+	"twitter-dark":#14171a,
+	"twitter-gray":#f5f8fa,
+	"instagram-narvy":#405DE6,
+	"instagram-indio":#5851DB,
+	"instagram-magenta": #C13584,
+	instagram: #E1306C,
+	"instagram-purple": #833AB4,
+	"instagram-red": #FD1D1D,
+	"instagram-orange": #F56040,
+	"instagram-lightorange": #F77737,
+	"instagram-yellow": #FCAF45,
+	"instagram-lightyellow": #FFDC80,
+	github: #333,
+	"github-gay":#f5f5f5,
+	linkedin: #0077b5,
+	"linkedin-light": #00a0dc,
+	"linkedin-purple": #8D6CAB,
+	behance:#1769ff,
+	whatsapp: #25d366,
+	"whatsapp-teal1": #075e54,
+	"whatsapp-teal2": #128c7e,
+	"whatsapp-teal3": #dcf8c6,
+	"whatsapp-blue": #34b7f1,
+	youtube: #ff0000,
+	"youtube-dark": #282828,
+	blogger: #f57d00,
+	tumblr: #2c4762,
+	snapchat: #fffc00,
+	amazon: #ff9900,
+	periscope: #3AA4C6,
+	"periscope-red": #D75444,
+	yelp: #d32323,
+	skype: #00aff0,
+	"skype-darkblue": #0078d7,
+	flickr: #f40083,
+	"flickr-blue": #006add,
+	soundcloud: #ff5500,
+	"soundcloud-yellow": #ff7700,
+	"spotify-green": #1ed760,
+	"spotify-darkgreen": #1db954,
+	spotify: #191414,
+	reddit: #FF4500,
+	"reddit-blue": #5F99CF,
+	"reddit-lightblue": #CEE3F8,
+	deviantart: #05cc47,
+	"deviantart-dark": #1f3626,
+	slideshare: #e68523,
+	"slideshare-blue": #00a0dc,
+	vk: #4a76a8,
+	"vk-dark": #2a5885,
+	vine: #00b489,
+	steam: #171a21,
+	"steam-blue": #00ADEE,
+	telegram: #0088CC,
+	messenger:#0084ff,
+	wechat:#7bb32e,
+	qq:#FEBF1B,
+	"qq-red":#E32B10,
+	"qq-blue":#3E7BD1,
+	qzone:#FFCE00,
+	viber: #59267c,
+	"vibber-blue": #a5cfd5,
+	"vibber-green": #81cd50,
+	"vibber-light": #e2d4e7,
+	pinterest:#bd081c,
+	kakaotalk:#FFE812,
+	"badoo-indigo":#783af9,
+	badoo:#F99DF0,
+	wordpress:#21759b,
+	"wordpress-orange":#d54e21,
+	"wordpress-dark":#464646,
+	line:#00C300,
+	womanalias:#DE4680,
+	//EMAIL
+	yahoo:#410093,
+	gmail:#D44638,
+	"gmail-darkred":#B23121,
+	"gmail-gray":#EEE,
+	outlook:#0072C6,
+	//OTROS
+	"google-blue": #4285f4,
+	"google-red": #ea4335, 
+	"google-yellow": #fbbc05, 
+	"google-green": #34a853,
+	dropbox:#007EE5,
+	hangouts: #0F9D58,
+	paypal:#003087,
+	"paypal-light":#009CDE,
+	trello: #0079BF,
+	"trello-green": #70B500,
+	"trello-orange": #FF9F1A,
+	"trello-red": #EB5A46,
+	"trello-yellow": #F2D600,
+	"trello-purple": #c377E0,
+	"trello-pink": #FF78CB,
+	"trello-blue": #00C2E0
+	),$colors);
+
+// =============================================================================================
+// ICONOS
+// =============================================================================================
+ 
+$snai-font-family: "sna-icon" !default;
+$snai-font-path: "../fonts" !default;
+
+$sna-icon-amazon: "\e95d";
+$sna-icon-alert-circle: "\e900";
+$sna-icon-alert-triangle: "\e901";
+$sna-icon-align-center: "\e902";
+$sna-icon-align-justify: "\e903";
+$sna-icon-align-left: "\e904";
+$sna-icon-align-right: "\e905";
+$sna-icon-arrow-down: "\e906";
+$sna-icon-arrow-down-left: "\e907";
+$sna-icon-arrow-down-right: "\e908";
+$sna-icon-arrow-left: "\e909";
+$sna-icon-arrow-right: "\e90a";
+$sna-icon-arrow-up: "\e90b";
+$sna-icon-arrow-up-left: "\e90c";
+$sna-icon-arrow-up-right: "\e90d";
+$sna-icon-bell: "\e90e";
+$sna-icon-bell-off: "\e90f";
+$sna-icon-bookmark: "\e910";
+$sna-icon-camera: "\e911";
+$sna-icon-camera-off: "\e912";
+$sna-icon-check: "\e913";
+$sna-icon-check-circle: "\e914";
+$sna-icon-chevron-down: "\e915";
+$sna-icon-chevron-left: "\e916";
+$sna-icon-chevron-right: "\e917";
+$sna-icon-chevron-up: "\e918";
+$sna-icon-chevrons-down: "\e919";
+$sna-icon-chevrons-left: "\e91a";
+$sna-icon-chevrons-right: "\e91b";
+$sna-icon-chevrons-up: "\e91c";
+$sna-icon-download: "\e91d";
+$sna-icon-edit: "\e91e";
+$sna-icon-edit-1: "\e91f";
+$sna-icon-hash: "\e920";
+$sna-icon-heart: "\e921";
+$sna-icon-help-circle: "\e922";
+$sna-icon-image: "\e923";
+$sna-icon-italic: "\e924";
+$sna-icon-key: "\e925";
+$sna-icon-lock: "\e926";
+$sna-icon-menu: "\e927";
+$sna-icon-chat-circle: "\e928";
+$sna-icon-chat-square: "\e929";
+$sna-icon-mic: "\e92a";
+$sna-icon-mic-off: "\e92b";
+$sna-icon-more-horizontal: "\e92c";
+$sna-icon-more-vertical: "\e92d";
+$sna-icon-phone: "\e92e";
+$sna-icon-phone-call: "\e92f";
+$sna-icon-phone-forwarded: "\e930";
+$sna-icon-phone-incoming: "\e931";
+$sna-icon-phone-missed: "\e932";
+$sna-icon-phone-off: "\e933";
+$sna-icon-phone-outgoing: "\e934";
+$sna-icon-power: "\e935";
+$sna-icon-refresh-cw: "\e936";
+$sna-icon-rotate-ccw: "\e937";
+$sna-icon-rotate-cw: "\e938";
+$sna-icon-rss: "\e939";
+$sna-icon-scissors: "\e93a";
+$sna-icon-search: "\e93b";
+$sna-icon-settings: "\e93c";
+$sna-icon-share: "\e93d";
+$sna-icon-shield: "\e93e";
+$sna-icon-shield-off: "\e93f";
+$sna-icon-slash: "\e940";
+$sna-icon-sliders: "\e941";
+$sna-icon-star: "\e942";
+$sna-icon-tag: "\e943";
+$sna-icon-thumbs-down: "\e944";
+$sna-icon-thumbs-up: "\e945";
+$sna-icon-tool: "\e946";
+$sna-icon-trash: "\e947";
+$sna-icon-trash-2: "\e948";
+$sna-icon-unlock: "\e949";
+$sna-icon-upload: "\e94a";
+$sna-icon-user: "\e94b";
+$sna-icon-user-check: "\e94c";
+$sna-icon-user-minus: "\e94d";
+$sna-icon-user-plus: "\e94e";
+$sna-icon-user-x: "\e94f";
+$sna-icon-users: "\e950";
+$sna-icon-video: "\e951";
+$sna-icon-video-off: "\e952";
+$sna-icon-voicemail: "\e953";
+$sna-icon-volume: "\e954";
+$sna-icon-volume-1: "\e955";
+$sna-icon-volume-2: "\e956";
+$sna-icon-volume-x: "\e957";
+$sna-icon-wifi: "\e958";
+$sna-icon-wifi-off: "\e959";
+$sna-icon-x: "\e95a";
+$sna-icon-x-circle: "\e95b";
+$sna-icon-a: "\e95c";
+$sna-icon-badoo: "\e966";
+$sna-icon-behance: "\e96b";
+$sna-icon-blogger: "\e970";
+$sna-icon-deviantart: "\e975";
+$sna-icon-dribbble: "\e97a";
+$sna-icon-dropbox: "\e97f";
+$sna-icon-facebook: "\e984";
+$sna-icon-flickr: "\e989";
+$sna-icon-github: "\e990";
+$sna-icon-gmail: "\e99c";
+$sna-icon-google: "\e9a6";
+$sna-icon-google-drive: "\e9ae";
+$sna-icon-hangouts: "\e9bf";
+$sna-icon-instagram: "\e9c4";
+$sna-icon-line: "\e9cb";
+$sna-icon-linkedin: "\e9d0";
+$sna-icon-mail: "\e9d6";
+$sna-icon-mail-o: "\e9d7";
+$sna-icon-messenger: "\e9d8";
+$sna-icon-outlook: "\e9df";
+$sna-icon-paypal: "\e9e8";
+$sna-icon-periscope: "\ea07";
+$sna-icon-pinterest: "\ea0e";
+$sna-icon-qq: "\ea13";
+$sna-icon-qzone: "\ea2a";
+$sna-icon-reddit: "\ea2f";
+$sna-icon-send-mail: "\ea42";
+$sna-icon-skype: "\ea43";
+$sna-icon-slideshare: "\ea4a";
+$sna-icon-snapchat: "\ea5d";
+$sna-icon-soundcloud: "\ea62";
+$sna-icon-spotify: "\ea67";
+$sna-icon-talk: "\ea71";
+$sna-icon-telegram: "\ea78";
+$sna-icon-trello: "\ea7d";
+$sna-icon-tumblr: "\ea82";
+$sna-icon-twitter: "\ea87";
+$sna-icon-viber: "\ea8c";
+$sna-icon-vine: "\eaa0";
+$sna-icon-vk: "\eaa5";
+$sna-icon-wechat: "\eaaa";
+$sna-icon-whatsapp: "\eab1";
+$sna-icon-wordpress: "\eab8";
+$sna-icon-yahoo: "\eabd";
+$sna-icon-yelp: "\eac2";
+$sna-icon-youtube: "\eacf";

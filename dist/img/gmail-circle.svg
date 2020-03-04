@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="enable-background:new 0 0 512 512;"
+   xml:space="preserve"
+   sodipodi:docname="gmail-circle.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata58"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs56" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview54"
+   showgrid="false"
+   inkscape:zoom="0.4609375"
+   inkscape:cx="218.0339"
+   inkscape:cy="256"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<circle
+   style="fill:#273B7A;"
+   cx="256"
+   cy="256"
+   r="256"
+   id="circle2" />
+
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="55.4978"
+   y1="423.8696"
+   x2="165.1978"
+   y2="423.8696"
+   gradientTransform="matrix(1.7239 0 0 -1.7239 35.4714 986.7104)">
+	<stop
+   offset="0"
+   style="stop-color:#F3F1E8"
+   id="stop6" />
+	<stop
+   offset="1"
+   style="stop-color:#E3E0D0"
+   id="stop8" />
+</linearGradient>
+<path
+   style="fill:url(#SVGID_1_);"
+   d="M358.538,169.52H153.46c-12.278,0-22.316,10.049-22.316,22.319v128.326  c0,12.262,10.037,22.313,22.316,22.313h205.078c12.278,0,22.318-10.05,22.318-22.313V191.84  C380.856,179.571,370.816,169.52,358.538,169.52z"
+   id="path11" />
+<g
+   id="g17">
+	<polygon
+   style="fill:#B5B4B0;"
+   points="255.073,289.797 162.109,340.137 162.261,342.48 256.157,291.868  "
+   id="polygon13" />
+	<path
+   style="fill:#B5B4B0;"
+   d="M360.431,190.857l-59.566,45.87l-44.709,55.143l90.905,50.612h11.476   c8.242,0,15.46-4.534,19.328-11.23l-7.697-51.131L360.431,190.857z"
+   id="path15" />
+</g>
+<path
+   style="fill:#DD4B40;"
+   d="M256.157,291.868l124.699-96.547v-3.481c0-12.271-10.038-22.319-22.318-22.319h-4.965l-94.441,80.618  l-98.256-80.618h-7.416c-12.278,0-22.316,10.049-22.316,22.319v128.326c0,12.262,10.037,22.313,22.316,22.313h8.801V217.347  L256.157,291.868z"
+   id="path19" />
+<path
+   style="fill:#A43026;"
+   d="M380.856,320.165V195.32l-33.794,26.164v120.994h11.476  C370.816,342.48,380.856,332.429,380.856,320.165z"
+   id="path21" />
+<g
+   id="g23">
+</g>
+<g
+   id="g25">
+</g>
+<g
+   id="g27">
+</g>
+<g
+   id="g29">
+</g>
+<g
+   id="g31">
+</g>
+<g
+   id="g33">
+</g>
+<g
+   id="g35">
+</g>
+<g
+   id="g37">
+</g>
+<g
+   id="g39">
+</g>
+<g
+   id="g41">
+</g>
+<g
+   id="g43">
+</g>
+<g
+   id="g45">
+</g>
+<g
+   id="g47">
+</g>
+<g
+   id="g49">
+</g>
+<g
+   id="g51">
+</g>
+</svg>

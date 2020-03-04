@@ -1,0 +1,11 @@
+{
+	"mail":{
+		"host":"smtp.gmail.com",
+		"smtp":true,
+		"port":587,
+		"username":"correo",
+		"password":"password",
+		"tpl":"simple",
+		"theme":"default"
+	}
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="512mm"
+   style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+   version="1.1"
+   viewBox="0 0 51200.288 51200.288"
+   width="512mm"
+   xml:space="preserve"
+   id="svg12"
+   sodipodi:docname="outlook-square.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+     id="metadata16"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="743"
+     id="namedview14"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="0.17699988"
+     inkscape:cx="1228.3274"
+     inkscape:cy="919.04661"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_x0020_1" /><defs
+     id="defs4"><style
+       type="text/css"
+       id="style2">
+   <![CDATA[
+    .fil0 {fill:#1E70B6}
+   ]]>
+  </style></defs><g
+     id="Layer_x0020_1"
+     transform="matrix(3.8359019,0,0,3.8396898,-8293.2405,-8326.2702)"><rect
+       style="opacity:1;fill:#ffffe7;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:11.40054703;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect823"
+       width="11963.626"
+       height="10978.548"
+       x="2941.3948"
+       y="3395.4126" /><g
+       id="_785613520"
+       style="fill:#0072c6;fill-opacity:1"><path
+         class="fil0"
+         d="M 3502,12735 V 4798 L 9639,3687 v 10160 z m 9657,-952 H 9915 l -2,-2867 597,409 c 162,129 368,105 501,10 l 2399,-1723 5,3859 c -1,261 14,312 -256,312 z M 10536,8754 9913,8290 V 6844 h 2787 c 106,-1 209,0 300,0 670,-3 357,222 52,444 l -2020,1470 c -178,130 -308,150 -496,-4 z M 9913,6103 h 3812 c 421,0 421,141 421,456 v 3742 c 0,7 0,14 0,21 0,199 0,261 -211,261 -212,0 -212,-54 -211,-246 0,-12 -1,-27 -1,-36 V 6562 H 9913 Z m -7832,9490 h 13493 l 1,-13476 -13494,1 z"
+         id="path6"
+         inkscape:connector-curvature="0"
+         style="fill:#0072c6;fill-opacity:1" /><path
+         class="fil0"
+         d="m 5669,9243 c -357,-1798 1435,-2332 1698,-831 331,1888 -1421,2227 -1698,831 z m 2230,-424 c 0,-965 -422,-1746 -1355,-1746 -1391,0 -1786,1874 -1097,2950 277,432 1032,762 1694,395 473,-262 758,-852 758,-1599 z"
+         id="path8"
+         inkscape:connector-curvature="0"
+         style="fill:#0072c6;fill-opacity:1" /></g></g></svg>

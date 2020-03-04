@@ -1,0 +1,1460 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- METADATOS -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@Robert_Saer">
+    	<meta name="twitter:creator" content="@Robert_Saer">
+   		<meta name="twitter:title" content="Social Networks Admin">
+    	<meta name="twitter:description" content="SNA, es un plugins de jQuery que permite mostrar botones de compartir, perfil y chat online de tus redes sociales favoritas">
+   		<meta name="twitter:image" content="img/logo-128.png">
+		
+		<meta property="og:type" content="plugins">
+		<meta property="og:title" content="Social Networks Admin">
+		<meta property="og:image" content="img/logo-128.png">
+		<meta property="og:description" content="SNA, es un plugins de jQuery que permite mostrar botones de compartir, perfil y chat online de tus redes sociales favoritas">
+		<meta property="og:url" content="http://localhost/plugins/sna/" />
+		<meta property="og:site_name" content="SNA" />
+
+		<meta name="author" content="Robert Pérez">
+		<meta name="description" content="Social Netkworks Admin es un administrador de redes sociales que nos permite motrar botones de compartir, perfil y chat online">
+		<meta name="keywords" content="HTML, CSS, JS, SNA, CSS3, Javascript, HTML5, Social, Networks, Web, Pluign, Framework">
+		
+		<meta name="robots" content="index, follow">
+		<!-- FIN METADATOS -->
+		<title>SNA</title>
+		<!-- FAVICON -->
+		<link rel="shortcut icon" type="image/png" href="img/logo512.png">
+		<link rel="icon" href="img/logo512.png" type="image/png">
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="docs/css/metro-all.min.css">
+		<link rel="stylesheet" type="text/css" href="dist/css/sna.css">
+		<link rel="stylesheet" type="text/css" href="docs/css/demo.css">
+	</head>
+	<body>
+		<header data-role="appbar" data-expand-point="md" class="bg-sna fg-white">
+			<a href="/" class="d-block brand fg-white no-hover logo" data-width="50"></a>
+    		<nav>
+				<div data-role="snafollowme" data-inline="true" data-cls-item="fg-white" data-size="small"
+				data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757","github":"rep98","linkedin":"robert-e-perez","behance":"roberteperez", "mailto":"delfinmundo@gmail.com"}'></div>
+			</nav>
+    		<ul class="app-bar-menu ml-auto text-upper" id="appbar-nav">
+    			<li><a href="#download"><i class="mif-download"></i> Descargas</a></li>
+    			<li><a href="#docs"><i class="mif-books"></i> Documentación</a></li>
+    			<li><a href="#utils"><i class="mif-embed2"></i> Utilidades</a></li>
+    			<li>
+    				<a href="#" target="_blank">
+    					<span class="mif-github mif-2x d-none d-block-md"></span>
+    					<span class="d-block d-none-md">Github</span>
+    				</a>
+    			</li>
+    		</ul>
+		</header>
+		<div class="hero bg-sna text-center" id="download">
+			<div>
+				<a href="/" class="d-none d-inline-block-md no-decor logo fg-white p-4 h1" data-width="300"></a>
+			</div>
+		    <h1 class="fg-white mt-10">
+		    	<span class="reduce-1 enlarge-1-md">
+		    		Social Networks Admin
+		    	</span>
+		    </h1>
+			<h4 class="fg-light text-upper text-light mt-4">
+				<span class="reduce-1 enlarge-1-md">
+					Plugins de Gestion de Redes Sociales
+				</span>
+			</h4>
+			<div class="d-flex flex-justify-center flex-align-center mt-4 text-small">
+			    <a href="https://github.com/olton/Metro-UI-CSS/watchers" class="m-1 fg-gray no-decor fg-white-hover transition"><span class="mif-eye"></span> <span id="github-watchers" data-role="counter" data-step="5">0</span></a>
+			    <a href="https://github.com/olton/Metro-UI-CSS/stargazers" class="enlarge-5 m-1 fg-lightGray no-decor fg-white-hover transition"><span class="mif-star-full"></span> <span id="github-stars" data-role="counter" data-step="50">0</span></a>
+			    <a href="https://github.com/olton/Metro-UI-CSS/network/members" class="m-1 fg-gray no-decor fg-white-hover transition"><span class="mif-flow-tree"></span> <span id="github-forks" data-role="counter" data-step="10">0</span></a>
+			</div>
+			<div class="d-flex flex-justify-center flex-align-center mt-4">
+			    <a href="https://github.com/olton/Metro-UI-CSS/watchers" class="large rounded drop-shadow m-1 fg-white no-decor transition button outline fg-sna-hover bg-white-hover btn-download">
+			    	<span class="mif-download"></span><span class="mx-2">Descargar</span><span class="badge inside fg-sna fg-white-hover bg-sna-hover bg-white" id="github-watchers">0</span>
+			    </a>
+			</div>
+		</div>
+		<main class="container pt-6">
+			<div class="row">
+				<div class="cell-12" id="docs">
+					<h1>Social Networks Admin</h1>
+					<a href="#" class="d-block fg-white no-hover logo" data-width="80" style="width:80px; float: right;"></a>
+					<p class="text-leader">
+						SNA. es un pequeño pero poderoso plugins que permite gestionar de manera sencilla y practica todas nuestras redes sociales.
+					</p>
+					<p>
+						Este cuenta con 3 Modalidades o SubPlugins para los 3 usos mas populares de las redes sociales.
+					</p>
+					<p>Las modalidades son:</p>
+					<ul class="step-list">
+						<li>
+							<h3><a href="#snafw" class="linksd fg-dark">Sígueme (SNA_followme)</a></h3>
+							<p>
+								Permite colocar nuestras redes sociales donde deseemos dentro de nuestra web una o mas veces como por ejemplo esta página que tiene 3 veces colocados.
+							</p>
+						</li>
+						<li>
+							<h3><a href="#snash" class="linksd fg-dark">Compartir (SNA_share)</a></h3>
+							<p>
+								Permite colocar iconos o botones de compartir con todas las redes sociales que deseemos incluso con Whatsapp.
+							</p>
+						</li>
+						<li>
+							<h3><a href="#snabtn" class="linksd fg-dark">Boton Flotante (SNA_button)</a></h3>
+							<p>
+								Permite agregar botones flotantes a nuestra web para el chat de nuestra red social favorita.
+							</p>
+						</li>
+					</ul>
+					<hr class="border bd-red">
+					<div id="snafw">
+						<h2>Sígueme (SNA_followme)</h2>
+						<p>
+							Como ya mencionamos gracias e este modulo podemos agregar nuestras redes sociales, por defecto trae <code id="lenghtSocial"></code>
+							pero podemos agregar mas si lo deseamos.
+						</p>
+						<p>Las Redes sociales por defecto son:</p>
+						<div class="row" id="listfollowme"></div>
+						<h3>Uso</h3>
+						<p>
+							Su uso es muy sencillo, veamos un ejemplo:
+						</p>.
+						<div class="example">
+							<div data-role="snafollowme" data-inline="true"
+								data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757", "mailto":"delfinmundo@gmail.com"}'></div>
+						</div>
+						<pre class="prettyprint linenums lang-html">
+							&lt;div data-role="snafollowme" 
+								data-inline="true"
+								data-links='{"facebook":"name_Perfil",...."mailto":"tucorreo@gmail.com"}'&gt;
+							&lt;/div&gt;
+						</pre>
+						<p>
+							Como podemos observar una linea de código y listo, es esta linea le establecemos el parámetro inline para que lo muestre en unas sola linea
+							y el parámetro links es donde agregamos todas nuestros perfiles.
+						</p>
+						<p>
+							Para agregar nuevos linsk distintos SNA pone a nuestra disposición un método llamado <code>SNA.newlinks</code>
+							el cual explicaremos en la sección de <a href="#utils" class="linksd">utilidades</a>.
+						</p>
+						<h4>Iconos</h4>
+						<p>
+							Por defecto SNA cuenta con 3 Temas de iconos, el tema FontICons (establecido por defecto), image-circle e image-square,
+							ademas de estos 3 themas podemos agregar otros si deseamos usando el parámetro <code>data-themen</code>.
+						</p>
+						<div class="example">
+							<label class="w-100 d-block">Default</label>
+							<div data-role="snafollowme" data-inline="true"
+								data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757", "mailto":"delfinmundo@gmail.com"}'></div>
+							<label class="w-100 mt-2 d-block">image-circle</label>
+							<div data-role="snafollowme" data-inline="true" data-themen="image-circle"
+								data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757", "mailto":"delfinmundo@gmail.com"}'></div>
+							<label class="w-100 mt-2 d-block">image-square</label>
+							<div data-role="snafollowme" data-inline="true" data-themen="image-square"
+								data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757", "mailto":"delfinmundo@gmail.com"}'></div>
+						</div>
+						<pre class="prettyprint linenums lang-html">
+							&lt;div data-role="snafollowme" 
+								data-inline="true" 
+								 data-themen="default"
+								data-links='{"facebook":"name_Perfil",...."mailto":"tucorreo@gmail.com"}'&gt;
+							&lt;/div&gt;
+							&lt;div data-role="snafollowme" 
+								data-inline="true"
+								 data-themen="image-circle"
+								data-links='{"facebook":"name_Perfil",...."mailto":"tucorreo@gmail.com"}'&gt;
+							&lt;/div&gt;
+							&lt;div data-role="snafollowme" 
+								data-inline="true"
+								 data-themen="image-square"
+								data-links='{"facebook":"name_Perfil",...."mailto":"tucorreo@gmail.com"}'&gt;
+							&lt;/div&gt;
+						</pre>
+						<p>
+							En caso de que deseemos colocar iconos distintos o imágenes debemos colocar para los iconos solo debemos 
+							poner la clase del icono y/o el prefijo por ejemplo en caso de que deseemos usar <a href="https://fontawesome.com">Font Awesome</a>
+							seria asi <code>data-themen="fa fa-"</code> donde <code>fa</code> es la clase del icono y <code>fa-</code> es el prefijo.
+						</p>
+						<div class="example">
+							<div class="row">
+								<div class="cell-12 cell-md-6">
+									<label class="w-100 d-block">Iconos Pesonalizados</label>
+									<div data-role="snafollowme" data-inline="true"
+									data-themen="mif-" data-cls-link="m-0 p-0"
+									data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757"}'></div>
+								</div>
+								<div class="cell-12 cell-md-6">
+									<label class="w-100 mt-2 d-block">Imagenes personalizados</label>
+									<div data-role="snafollowme" data-inline="true" data-themen="image" 
+									data-image='{"facebook":"docs/img/facebook.png", "twitter":"docs/img/twitter.png", "instagram":"docs/img/instagram.png"  }'
+									data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757"}'></div>
+								</div>
+							</div>
+						</div>
+						<pre class="prettyprint linenums lang-html">
+							&lt;div data-role="snafollowme" 
+								data-inline="true" 
+								data-cls-link="m-0 p-0"
+								data-themen="mif-"
+								data-links='{"facebook":"name_Perfil",...."mailto":"tucorreo@gmail.com"}'&gt;
+							&lt;/div&gt;
+							&lt;div data-role="snafollowme" 
+								data-inline="true" 
+								data-themen="image"
+								data-image='{"facebook":"facebook.png"... }'
+								data-links='{"facebook":"name_Perfil",...."mailto":"tucorreo@gmail.com"}'&gt;
+							&lt;/div&gt;
+						</pre>
+						<p class="remark info">
+							Esta documentación usa el Framework <a href="https://metroui.org.ua" target="_blank" class="fg-darkMagenta">Metro</a>
+							el cual tiene su propia fuente de iconos que usan la clase <code>mif-*</code>
+						</p>
+						<h4>Texto</h4>
+						<p>
+							Podemos agregar texto a nuestro botones, con el parámetro <code>data-text</code>, podemos agregar un texto general
+							o un texto para cada Red Social, a demás podemos simplemente establecerlo a <code>True</code>, y el sistema asignara
+							el texto basado en la configuración del idioma.
+						</p>
+						<div class="example">
+							<div class="row">
+								<div class="cell-12 cell-md-6">
+									<label class="w-100 d-block">Texto General</label>
+									<div data-role="snafollowme" data-inline="true" data-only="duo"
+									data-text="Sigueme"
+									data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757"}'></div>
+								</div>
+								<div class="cell-12 cell-md-6">
+									<label class="w-100 mt-2 d-block">Texto por cada Red</label>
+									<div data-role="snafollowme" data-inline="true" data-themen="image-square" data-only="duo"
+									data-text='{"facebook":"Sigueme","twitter":"Tweet","instagram":"Mirame"}' 
+									data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757"}'></div>
+								</div>
+							</div>
+						</div>
+						<pre class="prettyprint linenums lang-html">
+							&lt;div data-role="snafollowme" 
+								data-inline="true" 
+								data-only="duo"
+								data-text="Sigueme"
+								data-links='{"facebook":"name_Perfil",...."mailto":"tucorreo@gmail.com"}'&gt;
+							&lt;/div&gt;
+							&lt;div data-role="snafollowme" 
+								data-inline="true" 
+								data-only="duo"
+								data-text='{"facebook":"Sigueme","twitter":"Tweet","instagram":"Mirame"}' 
+								data-links='{"facebook":"name_Perfil",...."mailto":"tucorreo@gmail.com"}'&gt;
+							&lt;/div&gt;
+						</pre>
+						<h4>Idioma</h4>
+						<p>
+							SNA ofrece por defecto 2 idiomas <code>es-VE</code> y <code>en-US</code>, pero también nos ofrece una función que nos permite agregar
+							la cantidad de idiomas que deseemos. para establecer un idioma se usa el atributo <code>data-locale</code>.
+						</p>
+						<div class="example">
+							<div class="row">
+								<div class="cell-12" id="fw-locale">
+									<label class="w-100">Seleccione su Idioma:</label>
+									<input type="radio"  data-role="radio" name="lang" data-style="2" value="es-VE" data-caption="es-VE" checked="true">
+									<input type="radio"  data-role="radio" name="lang" data-style="2" value="en-US" data-caption="en-US">
+								</div>
+							</div>
+							<div class="row">
+								<div class="cell-12">
+									<div id="sna-locale" data-role="snafollowme" data-inline="true" data-only="duo"
+									data-text="true" data-locale="es-VE"
+									data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757"}'></div>
+								</div>
+							</div>
+						</div>
+						<pre class="prettyprint linenums lang-html">
+							&lt;div data-role="snafollowme" 
+								data-inline="true" 
+								data-only="duo"
+								data-text="true" data-locale="es-VE"
+								data-links='{"facebook":"name_Perfil",...."mailto":"tucorreo@gmail.com"}'&gt;
+							&lt;/div&gt;
+						</pre>
+						<h4>Tamaños</h4>
+						<p>
+							SNA posee 3 tamaños diferentes para todos su componentes, los cuales son <code>small, medium y large</code>
+							para ello se usa el atributo <code>data-size</code>
+						</p>
+						<div class="example">
+							<div class="row">
+								<div class="cell-9">
+									<div data-role="snafollowme" data-inline="true" data-size="small"
+										data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757", "mailto":"delfinmundo@gmail.com"}'></div>
+									<div data-role="snafollowme" data-inline="true"
+										data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757", "mailto":"delfinmundo@gmail.com"}'></div>
+									<div data-role="snafollowme" data-inline="true" data-size="large"
+										data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757", "mailto":"delfinmundo@gmail.com"}'></div>
+								</div>
+								<div class="cell-3">
+									<span class="w-100 d-flex flex-justify-center flex-align-center text-light" style="height: 24px;">&lt;-- small</span>
+									<span class="w-100 d-flex flex-justify-center flex-align-center text-normal" style="height: 32px;">&lt;-- medium</span>
+									<span class="w-100 d-flex flex-justify-center flex-align-center text-medium" style="height: 48px;">&lt;-- large</span>
+								</div>
+							</div>
+						</div>
+						<pre class="prettyprint linenums lang-html">
+							&lt;div data-role="snafollowme" 
+								data-inline="true" 
+								data-size="large"
+								data-links='{"facebook":"name_Perfil",...."mailto":"tucorreo@gmail.com"}'&gt;
+							&lt;/div&gt;
+						</pre>
+						<h4>parámetros</h4>
+						<div class="table-responcive">
+							<table class="table striped row-hover table-border cell-border" style="font-size: 14px;">
+								<thead>
+									<tr>
+										<th>Opción</th>
+										<th>Data-*</th>
+										<th>Default</th>
+										<th>Descripción</th>
+										<th>Observe</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>text</td>
+										<td>data-text</td>
+										<td></td>
+										<td>Se usa para colocar un texto exclusivo al link</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>links</td>
+										<td>data-links</td>
+										<td>{}</td>
+										<td>Establece los Perfiles de los elementos dado por nombre:url</td>
+										<td><i class="sna-icon-check fg-google-green mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>pos</td>
+										<td>data-pos</td>
+										<td>null</td>
+										<td>Se usa posicionar la barra de links, por defecto esta se deja donde se agrega el código, valores posibles: op-left, top-right, bottom-left, bottom-right, left-center, right-center</td>
+										<td><i class="sna-icon-check fg-google-green mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>inline</td>
+										<td>data-inline</td>
+										<td>null</td>
+										<td>Establece si deseamos que la barra se muestre en linea, o vertical si se establece el parámetro pos se utilizara el alineamiento según la posición.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>target</td>
+										<td>data-target</td>
+										<td>_blank</td>
+										<td>Valor del atributo target del links</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>only</td>
+										<td>data-only</td>
+										<td>icon</td>
+										<td>Se usa para identificar si solo queremos icono, texto o ambos, sus valores son: icon, text, duo. </td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>size</td>
+										<td>data-size</td>
+										<td>medium</td>
+										<td>Se usa para establecer el tamaño de los iconos sus valores son: small, medium, large</td>
+										<td><i class="sna-icon-check fg-google-green mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>themen</td>
+										<td>data-themen</td>
+										<td>sna-icon-</td>
+										<td>
+											Establece el tema de iconos a utilizar por defecto se usa los de SNA, pero si deseamos por ejemplo usar los de <a href="https://fontawesome.com">Font Awesome</a>
+											estableceríamos este parámetro a <code>data-themen="fa fa-"</code>. en caso de querer usar las imágens en vez de los iconos de SNA.
+											podemos establecerlo a <code>image-circel o image-square</code>.
+										</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>clsIcons</td>
+										<td>data-cls-icons</td>
+										<td></td>
+										<td>Se usa para asignar clases a los iconos.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>clsLink</td>
+										<td>data-cls-link</td>
+										<td></td>
+										<td>Se usa para asignar clases a los enlaces.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>cls</td>
+										<td>data-cls</td>
+										<td></td>
+										<td>Se usa para asignar clases a barra.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>clsFollowme</td>
+										<td>data-cls-followme</td>
+										<td></td>
+										<td>Se usa para asignar clases al contenedor de los Links.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>image</td>
+										<td>data-image</td>
+										<td>Null</td>
+										<td>Se usa para establecer un conjunto de imágenes a cada red social</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>style</td>
+										<td>data-style</td>
+										<td>rounded</td>
+										<td>Establece la apariencia de los items valores posibles: rounded, square, circle.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>squema</td>
+										<td>data-squema</td>
+										<td>{}</td>
+										<td>
+											Objeto que se usa para personalizar nuestros botones, podemos establecer el color de fondo, color de la fuente, si 
+											queremos que aya sombra y si desea que no existan espacios entre los elemento.
+											<pre class="prettyprint linenums lang-js">
+											{
+											  bg:true,//Establece el color de fondo, si se coloca true sera el de la red social
+											  fg:'white', // Establece el color de la fuente
+											  bgColors:null, //si bg es true podemos usar este parámetro para darle otra tonalidad por ejemeplo la google podemos colocaar green, yellow, red.
+											  shadow:true, //Si se muestra o no la sombre
+											  notspace:true //Si no se deja espacios en entre los iconos
+											}
+											</pre>
+										</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>locale</td>
+										<td>data-locale</td>
+										<td class="langs"></td>
+										<td>Se utiliza para establecer el idioma en que se mostrara el texto del button.</td>
+										<td><i class="sna-icon-check fg-google-green mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>hints</td>
+										<td>data-hints</td>
+										<td>null</td>
+										<td>Se utiliza para los parámetros de los titles, si lo establecemos a true mostrara lo valores según el idioma establecido.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>dialogType</td>
+										<td>data-dialog-type</td>
+										<td>modal</td>
+										<td>Establece si se crea un Modal o una Ventana tipo Thunar, para obtener la información del correo.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>dialog</td>
+										<td>data-dialog</td>
+										<td>{}</td>
+										<td>Estableces las opciones del dialogo</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<h4>Javascript</h4>
+						<p>
+							También podemos usar Javascript para crear nuestros links.
+						</p>
+						<div class="example">
+							<button class="button bg-magenta fg-white" id="bar-right">Crear barra a la derecha</button>
+						</div>
+						<pre class="prettyprint linenums lang-js">
+							var div = $('&lt;div&gt;').appendTo('body');
+							  	div.snafollowme({
+								pos: 'right-center',
+								links:{
+									facebook:"rep190",
+									twitter:"Robert_saer",
+									instagram:"robertperez757",
+									mailto:"delfinmundo@gmail.com"
+								}
+							});
+						</pre>
+						<p>
+							Además de todas estas opciones y acciones también se cuenta con unos métodos que nos permite establecer u obtener información en tiempo real.
+						</p>
+						<h4>Métodos</h4>
+						<ul class="step-list">
+							<li>
+								<h4>getLang()</h4>
+								<p>
+									Retorna la plantilla de idioma establecido
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var snaFw = $("#mielemento").data('snafollowme');
+									    snaFW.getLang();
+									return
+									-&gt; {langText: "nombre_del_idioma" , social: {...}, 
+									-&gt; mailto: {...}, buttoms: {...}, validation: {...} }	
+								</pre>
+								<p class="remark info">
+									Para conocer la plantilla de idiomas valla a <a href="#utils_lang" class="linksd">Utilidades &gt; idiomas</a>
+								</p>
+							</li>
+							<li>
+								<h4>setLang(lang)</h4>
+								<p>
+									Establece un nuevo idioma al elemento
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var snaFw = $("#mielemento").data('snafollowme');
+										snaFw = snaFW.setLang('en-US');
+									return
+									Object snafollowme
+								</pre>
+							</li>
+							<li>
+								<h4>setPosition(pos)</h4>
+								<p>
+									Permite restablecer una posición al elemento. 
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var snaFw = $("#mielemento").data('snafollowme');
+									    snaFw = snaFW.setPosition('top-left');
+									return
+									Object snafollowme
+								</pre>
+							</li>
+							<li>
+								<h4>getPosition(cls)</h4>
+								<p>
+									Si cls es igual a verdadero (<code>true</code>) retornara el nombre de la clase asignada, en caso de lo contrario
+									retornara un objeto con las medidas.
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var snaFw = $("#mielemento").data('snafollowme');
+									    snaFW.getPosition(true);
+									return "top-left"
+										snaFW.getPosition(false);
+									return {top: 212, left: 0}
+								</pre>
+							</li>
+							<li>
+								<h4>setLinks(link)</h4>
+								<p>
+									Establece los nuevos links al elemento en tiempo de ejecución.
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var snaFw = $("#mielemento").data('snafollowme');
+									    snaFw = snaFW.setLinks({
+											linkedin:'sna'
+										});
+									return
+									Object snafollowme
+								</pre>
+							</li>
+							<li>
+								<h4>getLinks()</h4>
+								<p>
+									Obtiene una lista de los links pasados al elemento.
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var snaFw = $("#mielemento").data('snafollowme');
+									    snaFW.getLinks();
+									return
+									{...}
+								</pre>
+							</li>
+							<li>
+								<h4>setSize()</h4>
+								<p>
+									Establece una de las 3 medidas a nuestro elemento.
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var snaFw = $("#mielemento").data('snafollowme');
+									    snaFw = snaFW.setSize('small');
+									return
+									Object snafollowme
+								</pre>
+							</li>
+						</ul>
+					</div>
+					<hr class="border bd-amber">
+					<div id="snash">
+						<h2>Compartir (SNA_share)</h2>
+						<p>
+							Este modulo nos permite crear botones de compartir con muchas redes sociales, inclucibe Whatsapp.
+						</p>
+						<div class="example">
+							<div class="row">
+								<div class="cell-12 cell-md-6">
+									<div class="card image-header" style="width: 300px;">
+										<div class="card-header fg-white" style="background-image: url(docs/img/img11.jpg)">
+											Desierto
+										</div>
+										 <div class="card-content p-2" id="postdata">
+									        <p class="fg-gray">Posteado en Enero 8, 2020</p>
+									        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+									        ultricies efficitur vitae non felis. Phasellus quis nibh
+									        hendrerit...
+									    </div>
+									    <div class="card-footer">
+									       <div data-role="snashare" data-only="icon" data-target="dialog" data-size="small" data-social="facebook,twitter,mailto" data-title="Desierto" data-description="#postdata"></div>
+									    </div>
+									</div>
+								</div>
+								<div class="cell-12 cell-md-6">
+									<div class="card image-header" style="width: 300px;">
+										<div class="card-header fg-white" style="background-image: url(docs/img/1.jpg)">
+											Vehiculos
+										</div>
+										 <div class="card-content p-2" id="postdata1">
+									        <p class="fg-gray">Posteado en Enero 16, 2020</p>
+									        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+									        ultricies efficitur vitae non felis. Phasellus quis nibh
+									        hendrerit...
+									    </div>
+									    <div class="card-footer">
+									       <div data-role="snashare" data-only="icon" data-target="dialog" 
+									       data-type="dropdown" data-text='{"facebook":"Compartir","twitter":"Tweet","mailto":"Enviar"}'
+									       data-size="small" data-social="facebook,twitter,mailto" data-title="Vehiculos" 
+									       data-description="#postdata1"></div>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<pre class="prettyprint linenums lang-html">
+							&lt;div data-role="snashare" data-only="icon" data-size="small" 
+								data-social="facebook,twitter,mailto" 
+								data-title="Desierto" data-description="#postdata"&gt;
+							&lt;/div&gt;
+						</pre>
+						<p>
+							Al igual que los demás módulos podemos agregar nuevos link, pero los links predeterminados son:
+						</p>
+						<div class="row">
+							<div data-role="snashare" data-only="icon" data-size="small" data-social="all" data-title="Desierto" data-description="#postdata"></div>
+						</div>
+						<h4>parámetros de Configuración</h4>
+						<p>
+							Algunas redes sociales nos permite además de darles la URL, podemos darles otras cosas como TITULO, DESCRIPCIÓN u otros,
+							SNA SHARE nos ofrece la posibilidad de establecer dichos parámetros basados en los atributos data.
+						</p>
+						<div class="example">
+							<div class="row">
+								<div class="cell-12">
+									<div class="card image-header" style="width: 300px;">
+										<div class="card-header fg-white" style="background-image: url(docs/img/Dreamlike_flowers.jpg)">
+											Flores de Ensueño
+										</div>
+										 <div class="card-content p-2" id="postdata1">
+									        <p class="fg-gray">Posteado en Enero 16, 2020</p>
+									        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+									        ultricies efficitur vitae non felis. Phasellus quis nibh
+									        hendrerit...
+									    </div>
+									    <div class="card-footer">
+									       <div data-role="snashare" data-only="icon" data-target="dialog" 
+									       data-size="small" data-social="facebook,twitter,pinterest,linkedin,tumblr,whatsapp" data-title="Flores de Ensueño" 
+									       data-description="#postdata1" data-media="http://10.42.0.1/plugins/sna/docs/img/Dreamlike_flowers.jpg"
+									        data-via="Robert_Saer" data-post-type="article"></div>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<pre class="prettyprint linenums lang-html">
+							 &lt;div data-role="snashare" data-only="icon" data-target="dialog" 
+							      data-size="small" data-social="facebook,twitter,pinterest,linkedin,tumblr,whatsapp" data-title="Flores de Ensueño" 
+							      data-description="#postdata1" data-media="http://10.42.0.1/plugins/sna/docs/img/Dreamlike_flowers.jpg"
+							      data-via="Robert_Saer" data-post-type="article"&gt;&lt;/div&gt;
+						</pre>
+						<p class="remark info">
+							La URL el sistema lo toma de manera automática, pero podemos usar el atributo <code>data-url</code> para
+							establecer una url para compartir, además todos los parámetros necesarios el sistema los toma de los metadatos
+							de la página actual, de forma predeterminada.
+						</p>
+						<p>
+							Como opción adicional y como podemos notar en el ejemplo el attributo <code>data-description</code>, no solo podemos pasarle un
+							texto podemos pasarle un elemento al cual se le obtendrá el texto dado.  Los atributos que aceptan elementos son: 
+							<code>data-description, data-title, data-media</code>.
+						</p>
+						<h4>Parámetros</h4>
+						<div class="table-responcive">
+							<table class="table striped row-hover table-border cell-border" style="font-size: 14px;">
+								<thead>
+									<tr>
+										<th>Opción</th>
+										<th>Data-*</th>
+										<th>Default</th>
+										<th>Descripción</th>
+										<th>Observe</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>text</td>
+										<td>data-text</td>
+										<td>true</td>
+										<td>Se usa para colocar un texto a los enlaces de compartir, si es true se tomara el texto 
+											según el parámetro share del diccionario de idioma establecido, también podemos establecer 
+											un objeto si deseamos que cada elemento tenga su propio texto asi: <code>{"nombre_de_la_red":"texto_a_mostrar"}</code>
+
+										</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>social</td>
+										<td>data-social</td>
+										<td>all</td>
+										<td>Establece las redes sociales con la que permitirás que compartan tu Post, por defecto <code>all</code> son todas las predeterminadas, si coloca más de una red deberá separarlas por coma(,)</td>
+										<td><i class="sna-icon-check fg-google-green mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									
+									<tr>
+										<td>target</td>
+										<td>data-target</td>
+										<td>_blank</td>
+										<td>Valor del atributo target del links, como opción podemos establecer este valor a dialog o popup para mostrar un modal o una nueva ventana así el usuario no tendría que salir del sitio para compartir nuestro Post</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>size</td>
+										<td>data-size</td>
+										<td>medium</td>
+										<td>Se usa para establecer el tamaño de los iconos sus valores son: small, medium, large</td>
+										<td><i class="sna-icon-check fg-google-green mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>themen</td>
+										<td>data-themen</td>
+										<td>sna-icon-</td>
+										<td>
+											Establece el tema de iconos a utilizar por defecto se usa los de SNA, pero si deseamos por ejemplo usar los de <a href="https://fontawesome.com">Font Awesome</a>
+											estableceríamos este parámetro a <code>data-themen="fa fa-"</code>. en caso de querer usar las imágenes en vez de los iconos de SNA.
+											podemos establecerlo a <code>image-circel o image-square</code>.
+										</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>clsIcons</td>
+										<td>data-cls-icons</td>
+										<td></td>
+										<td>Se usa para asignar clases a los iconos.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>clsShare</td>
+										<td>data-cls-share</td>
+										<td></td>
+										<td>Se usa para asignar clases a los enlaces.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>cls</td>
+										<td>data-cls</td>
+										<td></td>
+										<td>Se usa para asignar clases al conjunto de elementos.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>image</td>
+										<td>data-image</td>
+										<td>Null</td>
+										<td>Se usa para establecer un conjunto de imágenes a cada red social</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>style</td>
+										<td>data-style</td>
+										<td>rounded</td>
+										<td>Establece la apariencia de los items valores posibles: rounded, square.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>squema</td>
+										<td>data-squema</td>
+										<td>{}</td>
+										<td>
+											Objeto que se usa para personalizar nuestros botones, podemos establecer el color de fondo, color de la fuente, si 
+											queremos que aya sombra y si desea que no existan espacios entre los elemento.
+											<pre class="prettyprint linenums lang-js">
+											{
+											  bg:true,//Establece el color de fondo, si se coloca true sera el de la red social
+											  fg:'white', // Establece el color de la fuente
+											  bgColors:null, //si bg es true podemos usar este parámetro para darle otra tonalidad por ejemplo la google podemos colocar green, yellow, red.
+											  shadow:true, //Si se muestra o no la sombre
+											  notspace:true //Si no se deja espacios en entre los iconos
+											}
+											</pre>
+										</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>locale</td>
+										<td>data-locale</td>
+										<td class="langs"></td>
+										<td>Se utiliza para establecer el idioma en que se mostrara el texto del button.</td>
+										<td><i class="sna-icon-check fg-google-green mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>hints</td>
+										<td>data-hints</td>
+										<td>null</td>
+										<td>Se utiliza para los parámetros de los titles, si lo establecems a true mostrara lo valores según el idioma establesido.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<td>dialog</td>
+										<td>data-dialog</td>
+										<td>{}</td>
+										<td>Estableces las opciones del dialogo</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+									<tr>
+										<th colspan="5">
+											<label class="d-block text-center">Parámetros de las URL de los botones de compartir</label>
+											<p>Los siguientes parámetros se utilizan para asignarles a los enlaces de compartir la información referente a los que se desea postear, por defecto el sistema captura los metadata, que son los valores mostrados a continuación.</p>
+										</th>
+									</tr>
+									<tr>
+										<td>url</td>
+										<td>data-url</td>
+										<td data-id="sh-url" class="metadata"></td>
+										<td>Dirección URL del sitio web.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr><tr>
+										<td>title</td>
+										<td>data-title</td>
+										<td data-id="sh-title" class="metadata"></td>
+										<td>Estableces el titulo de la página.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr><tr>
+										<td>description</td>
+										<td>data-description</td>
+										<td data-id="sh-description" class="metadata"></td>
+										<td>Estableces la descripción del elemento</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr><tr>
+										<td>media</td>
+										<td>data-media</td>
+										<td data-id="sh-media" class="metadata"></td>
+										<td>Se usa para establecer la imagen del elemento a compartir.</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr><tr>
+										<td>via</td>
+										<td>data-via</td>
+										<td data-id="sh-via" class="metadata"></td>
+										<td>Establece el usuario creador del post o que comparte. (Usado para Twitter)</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr><tr>
+										<td>source</td>
+										<td>data-source</td>
+										<td data-id="sh-source" class="metadata"></td>
+										<td>Establece el creador o autor del post</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr><tr>
+										<td>postType</td>
+										<td>data-post-type</td>
+										<td data-id="sh-postype" class="metadata"></td>
+										<td>Estableces el tipo de articulo a compartir</td>
+										<td><i class="sna-icon-x fg-youtube mx-auto d-block" style="width: 14px;"></i></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<h4>Métodos</h4>
+						<ul class="step-list">
+							<li>
+								<h4>getLang()</h4>
+								<p>
+									Retorna la plantilla de idioma establecido
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var snaFw = $("#mielemento").data('snashare');
+									    snaFW.getLang();
+									return
+									-&gt; {langText: "nombre_del_idioma" , social: {...}, 
+									-&gt; mailto: {...}, buttoms: {...}, validation: {...} }	
+								</pre>
+								<p class="remark info">
+									Para conocer la plantilla de idiomas valla a <a href="#utils_lang" class="linksd">Utilidades &gt; idiomas</a>
+								</p>
+							</li>
+							<li>
+								<h4>setLang(lang)</h4>
+								<p>
+									Establece un nuevo idioma al elemento
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var snaFw = $("#mielemento").data('snashare');
+									    snaFw = snaFW.setLang('en-US');
+									return
+									Object snashare
+								</pre>
+							</li>
+							<li>
+								<h4>setSocial(link)</h4>
+								<p>
+									Establece las nuevas redes sociales a compartir
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var snaFw = $("#mielemento").data('snashare');
+									    snaFw = snaFW.setSocial(['faceboo','twitter']);
+									return
+									Object snashare
+								</pre>
+							</li>
+							<li>
+								<h4>getSocial()</h4>
+								<p>
+									Obtiene una lista de las redes sociales con las cuales compartes y su links
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var snaFw = $("#mielemento").data('snashare');
+									    snaFW.getSocial();
+									return
+									{...}
+								</pre>
+							</li>
+							<li>
+								<h4>setSize()</h4>
+								<p>
+									Establece una de las 3 medidas a nuestro elemento.
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var snaFw = $("#mielemento").data('snashare');
+									    snaFw = snaFW.setSize('small');
+									return
+									Object snashare
+								</pre>
+							</li>
+						</ul>
+					</div>
+					<hr class="border bd-cyan">
+					<div id="snabtn">
+						<h2>Boton Flotante (SNA_button)</h2>
+						<p>
+							Es un pequeño plugin que nos permite agregar botones flotantes a 
+							nuestro sistema, para el envio de msj a nuestra redes soiales, 
+							como Whatsapp, Skype, Telegram, Vibe, Line, entre otras.
+						</p>
+						<p>
+							Su uso es muy sencillo, se trabaja desde javascript para mejorar el contro del botón.
+						</p>
+						<div class="example" id="parentbn" style="height: 300px;"></div>
+						<pre class="prettyprint linenums lang-js">
+							SNA.btnfloat.create({
+								data:{
+									phone:'+584241922546',
+									text:'Me gusta Tu sistio'
+								}
+							});
+						</pre>
+						<p>
+							No solo podemos colocar un links podemos crear un boton con multiples links.
+						</p>
+						<div class="example" id="parentbn1" style="height: 300px;"></div>
+						<pre class="prettyprint linenums lang-js">
+							SNA.btnfloat.create({
+							  listSocial:{
+								whatsapp:{
+									data:{
+										phone:'+584241922546',
+										text:'Bienvenido a mis sitema'
+									}
+								},
+								skype:{
+									data:{
+										live:'shellrumm.fp',
+										sms:'Hola en que puedo ayudarte?'
+									}
+								}
+							  }
+						 });
+						</pre>
+						<h4>Parámetros</h4>
+						<div class="table-responcive">
+							<table class="table striped row-hover table-border cell-border">
+								<thead>
+									<tr>
+										<th>Opción</th>
+										<th>Default</th>
+										<th>Descripción</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>parent</td>
+										<td>body</td>
+										<td>Establece el padre del elemento donde se creara el botón flotante</td>
+									</tr>
+									<tr>
+										<td>position</td>
+										<td>left</td>
+										<td>Establece la posición del botón, puede ser left o right</td>
+									</tr>
+									<tr>
+										<td>fixed</td>
+										<td>false</td>
+										<td>Establece si el posisionamiento es fijo o absoluto, por defecto es absoluto</td>
+									</tr>
+									<tr>
+										<td>themen</td>
+										<td>sna-icon-</td>
+										<td>Establece el tema de iconos para nuestro botón</td>
+									</tr>
+									<tr>
+										<td>locale</td>
+										<td class="langs"></td>
+										<td>Esablece el idioma del botón</td>
+									</tr>
+									<tr>
+										<td>social</td>
+										<td>whatsapp</td>
+										<td>En caso de querer un boton flotante independiente, se usas esta opción para establecer la Red Social a usar</td>
+									</tr>
+									<tr>
+										<td>data</td>
+										<td>{}</td>
+										<td>En caso de querer un boton flotante independiente, se usas esta opción para establecer los parámetros del botón</td>
+									</tr>
+									<tr>
+										<td>cls</td>
+										<td></td>
+										<td>Clases para el contenedor del Botón</td>
+									</tr>
+									<tr>
+										<td>clsBtn</td>
+										<td></td>
+										<td>Clases para el botón</td>
+									</tr>
+									<tr>
+										<td>clsList</td>
+										<td></td>
+										<td>Clases para el conjunto de botones</td>
+									</tr>
+									<tr>
+										<td>clsIcons</td>
+										<td></td>
+										<td>Clase para los Iconos</td>
+									</tr>
+									<tr>
+										<td>listSocial</td>
+										<td>null</td>
+										<td>
+											En caso de querer un botón con multiples links se utiliza esta opcion para establer el nombre y los datos de la Red Social de la siguiente manera:
+											<pre class="prettyprint linenums lang-js">
+												{
+												  nombre_de_mi_red_social:{
+													data:{}, //Datos
+													theme:"sna-icon-",//Tema de Icons
+													squema:{},//Squema de Colores para esta red
+												 }
+												}
+											</pre> 
+										</td>
+									</tr>
+									<tr>
+										<td>listShowTopPoint</td>
+										<td>SM</td>
+										<td>
+											En caso de querer un botón con multiples links se utiliza para establecer en que punto de pantalla desea que su botón expanda los link hacia arriba en vez de lateral.
+											por defecto se colocara hacia arriba en pantallas menores a 576px de ancho
+										</td>
+									</tr>
+									<tr>
+										<td>size</td>
+										<td>medium</td>
+										<td>Establece el tamaño del botón, podemos escoger entre small, medium  y large, además podemos también establecer el tamaño deseado usando solo una cantidad ejemplo <code>size:90</code> 
+											de esta manera el botón tendra 90px de alto por 90px de ancho
+										</td>
+									</tr>
+									<tr>
+										<td>squema</td>
+										<td>
+											 { bg:true,fg:true }
+										</td>
+										<td>
+											Establece el conjunto de colores personalizado para el boton. <br>
+											Solo cuenta con 2 opciones, bg que es el fondo y fg que es el color del texto.
+											si se establece a true obtendran del valor del sistema. 
+										</td>
+									</tr>
+									<tr>
+										<td>hint</td>
+										<td>{ text:null, cls:''}</td>
+										<td>
+											Se utiliza para establecer el mensaje de bienvenida, el parámetro text de ser un objeto con las opciones welcome y welcome2,
+											ejemplo:
+											<pre class="prettyprint linenums lang-js">
+												{
+												  text:{
+												  	welcome:'Bienvenido a mi sistema',
+												  	welcome2:'¿En que te puedo Ayudar?'
+												  }
+												}
+											</pre> 
+											El segundo parámetro permite asignar una clase al tooltip
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<h4>Métodos</h4>
+						<ul class="step-list">
+							<li>
+								<h4>create(<i>options</i>)</h4>
+								<p>
+									Permite crear el botón flotante
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var btnF = SNA.btnfloat.create();
+									return
+									Object btnfloat
+								</pre>
+							</li><li>
+								<h4>setSize(<i>size</i>)</h4>
+								<p>
+									Establece una de las 3 medidas a nuestro elemento o una medidad pasada como número
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var btnF = SNA.btnfloat.create();
+									    btnF = btnF.setSize('small'); //Se le asigna el tamaño small
+									    btnF = btnF.setSize(120); //El botón sera de 120px x 120px
+									return
+									Object btnfloat
+								</pre>
+							</li><li>
+								<h4>getSize(int)</h4>
+								<p>
+									Permite obtener en tamaño del elemento, si int es <code>True</code> se devolvera un objeto con el ancho y alto, de lo contrario 
+									se devolvera el valor del parámentro size.
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var btnF = SNA.btnfloat.create();
+									var objSize = btnF.getSize(true);
+									return
+									Object { width: '48px', height: '48px'}
+
+									var Size = btnF.getSize(false);
+									return 
+									String medium
+								</pre>
+							</li>
+							<li>
+								<h4>setPosition(<i>position</i>, <i>fixed</i>)</h4>
+								<p>
+									Establece la posición del elemento, el parametro position puede ser <code>left,right</code>
+									como también podemos darle un objeto compuesto por el tipo de posición, el top y el left, el segundo parámetro
+									permite establecer si es una posición fija o absoluta;
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var btnF = SNA.btnfloat.create();
+										btnF = btnF.setPosition('right',true);
+									return
+									Object btnfloat
+
+								</pre>
+							</li>
+							<li>
+								<h4>getPosition()</h4>
+								<p>
+									Obtiene la posición del elemento.
+								</p>
+								<pre class="prettyprint linenums lang-js">
+									var btnF = SNA.btnfloat.create();
+									var pos = btnF.getPosition();
+									return
+									Object {position:'fixed', top:'200px', left:'5px'}
+
+								</pre>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<hr class="border bd-magenta border-size-3 border-double">
+			<div class="row">
+				<div id="nav-float" class="d-none d-block-lg cell-lg-2 order-2 border-left bd-light nav-wrapper">
+					<h5>Tabla de Contenido</h5>
+					<hr>
+					<ul class="toc-nav">
+						<li data-href="#p-utils" data-icon='<span class="sna-icon-tool"></span>' data-caption="Utilidades">
+							<ul>
+								<li data-href="#p-u-valid" data-icon="<span class='mif-embed2'></span>" data-caption="Validadores"></li>
+								<li data-href="#p-u-opmat" data-icon="<span class='mif-embed2'></span>" data-caption="Matematicos"></li>
+								<li data-href="#p-u-style" data-icon="<span class='mif-embed2'></span>" data-caption="Estilos"></li>
+								<li data-href="#p-u-other" data-icon="<span class='mif-embed2'></span>" data-caption="Otros"></li>
+							</ul>
+						</li>
+						<li data-href="#p-color" data-icon='<span class="mif-eyedropper"></span>' data-caption="Colores">
+							<ul>
+								<li data-href="#listcolors" data-icon="<span class='mif-embed2'></span>" data-caption="Colores"></li>
+								<li data-href="#p-c-opmat" data-icon="<span class='mif-embed2'></span>" data-caption="Validadores"></li>
+								<li data-href="#p-c-conv" data-icon="<span class='mif-embed2'></span>" data-caption="Conversores"></li>
+								<li data-href="#p-c-tool" data-icon="<span class='mif-embed2'></span>" data-caption="Herramientas"></li>
+								<li data-href="#p-c-maj" data-icon="<span class='mif-embed2'></span>" data-caption="Manejo"></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<main class="cell-12 cell-lg-10 order-1 pr-1-sx pl-1-sx pr-5-md pl-5-md" id="utils">
+					<h1>Funciones Utiles</h1>
+					<p class="text-leader">
+						El desarrolador de SNA, creo muchas funciones para lograr las funcionalidades de SNA, pero al ver sus utilidades en otros ambitos fuera
+						de SNA, decidio combertirlos en plugis para poder usarlos fuera.
+					</p>
+					<h2 id="p-utils">Utils</h2>
+					<p>
+						EL modulo Utils nos ofrece un conjunto de funciones desde validaciones hasta funciones matematicas.
+					</p>
+					<h3>Lista de Funciones del Plugins Utils</h3>
+					<ul data-role="treeview" class="list-code">
+						<li data-caption="<span class='fg-sna'>SNA</span>.<span class='kwd'>utils</span>:">
+							<ul>
+								<li data-caption="<span class='pln'>{</span>"></li>
+								<li data-caption="<span class='com'>//Validadores</span>" id="p-u-valid"></li>
+								<li data-caption="<span class='obj'>isUrl</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(val)</span>"></li>
+								<li data-caption="<span class='obj'>isTag</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(val)</span>"></li>
+								<li data-caption="<span class='obj'>isColor</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(val)</span>"></li>
+								<li data-caption="<span class='obj'>isString</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(val)</span>"></li>
+								<li data-caption="<span class='obj'>isInt</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(n)</span>"></li>
+								<li data-caption="<span class='obj'>isFloat</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(n)</span>"></li>
+								<li data-caption="<span class='obj'>isType</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(val, type)</span>"></li>
+								<li data-caption="<span class='obj'>isTouchDevice</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>()</span>"></li>
+								<li data-caption="<span class='obj'>isObject</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(o)</span>"></li>
+								<li data-caption="<span class='obj'>isDate</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(val, format)</span>"></li>
+								<li data-caption="<span class='obj'>isDateObject</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(v)</span>"></li>
+								<li data-caption="<span class='obj'>isValue</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(val)</span>"></li>
+								<li data-caption="<span class='obj'>isElement</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(selector)</span>"></li>
+								<li data-caption="<span class='obj'>isjQElement</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(el)</span>"></li>
+								<li data-caption="<span class='obj'>isSNAElement</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(el, type)</span>"></li>
+								<li data-caption="<span class='obj'>isMedia</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(query)</span>"></li>
+								<li data-caption="<span class='obj'>isFunc</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(f)</span>"></li>
+								<li data-caption="<span class='obj'>isVisible</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(el)</span>"></li>
+								<li data-caption="<span class='obj'>isMovil</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>()</span>"></li>
+								<li data-caption="<span class='com'>//Operadores Matematicos</span>" id="p-u-opmat"></li>
+								<li data-caption="<span class='obj'>parseHex</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(n)</span>"></li>
+								<li data-caption="<span class='obj'>hex2dec</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(hex)</span>"></li>
+								<li data-caption="<span class='obj'>dec2hex</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(dec)</span>"></li>
+								<li data-caption="<span class='obj'>rad2deg</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(rad)</span>"></li>
+								<li data-caption="<span class='obj'>deg2rad</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(dec)</span>"></li>
+								<li data-caption="<span class='obj'>deg2rad</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(dec)</span>"></li>
+								<li data-caption="<span class='obj'>por</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(n,p)</span>"></li>
+								<li data-caption="<span class='obj'>random</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(from, to)</span>"></li>
+								<li data-caption="<span class='com'>//Estilos y DOM</span>" id="p-u-style"></li>
+								<li data-caption="<span class='obj'>getStyle</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(el, pseudo)</span>"></li>
+								<li data-caption="<span class='obj'>getStyleOne</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(el, property)</span>"></li>
+								<li data-caption="<span class='obj'>computedRgbToHex</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(rgb)</span>"></li>
+								<li data-caption="<span class='obj'>computedRgbToRgba</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(rgb, alpha)</span>"></li>
+								<li data-caption="<span class='obj'>computedRgbToArray</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(rgb)</span>"></li>
+								<li data-caption="<span class='obj'>pageHeight</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>()</span>"></li>
+								<li data-caption="<span class='obj'>hiddenElementSize</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(el, margin)</span>"></li>
+								<li data-caption="<span class='obj'>toMedia</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>()</span>"></li>
+								<li data-caption="<span class='obj'>uniqueId</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>()</span>"></li>
+								<li data-caption="<span class='obj'>elementId</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(prefix)</span>"></li>
+								<li data-caption="<span class='obj'>center</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(e, fn)</span>"></li>
+								<li data-caption="<span class='com'>//Otros</span>" id="p-u-other"></li>
+								<li data-caption="<span class='obj'>lengthElement</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(elem)</span>"></li>
+								<li data-caption="<span class='obj'>lengthObj</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(obj)</span>"></li>
+								<li data-caption="<span class='obj'>joinObj</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(obj, split, sep)</span>"></li>
+								<li data-caption="<span class='obj'>exec</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(f, args, context)</span>"></li>
+								<li data-caption="<span class='obj'>strToArray</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(str, delimiter, type, format)</span>"></li>
+								<li data-caption="<span class='obj'>sort</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(m,t,n)</span>"></li>
+								<li data-caption="<span class='obj'>concatLinkChat</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(links, param)</span>"></li>
+								<li data-caption="<span class='obj'>splitObj</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(obj)</span>"></li>
+								<li data-caption="<span class='obj'>strsplit</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(text, long)</span>"></li>
+								<li data-caption="<span class='obj'>func</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(f)</span>"></li>
+								<li data-caption="<span class='pln'>}</span>"></li>
+							</ul>
+						</li>
+					</ul>	
+					<p>
+						Además de las funciones mencionada se agregan los plugins validadores <code>$.isUndefined</code> y <code>$.isNull</code>
+					</p>
+					<h2 id="p-color">Color</h2>
+					<p>
+						EL modulo Color nos ofrece un conjunto de funciones para manejar los colores y las paletas precentes.
+						ademas SNA cuenta con una variable que almacena el conjunto de colores predeterminados.
+					</p>
+					<h3>Lista de Colores</h3>
+					<p>
+						El Objeto <code><span class="fg-sna">SNA</span>.colorList</code>, contiene un grupo de colores predetemnados, como paleta de colores
+						las cuales se usan para las distintas redes sociales.
+					</p>
+					<div class="example">
+						<div class="row" id="listcolors"></div>
+					</div>
+					<h3>Lista de Funciones del Plugins Color</h3>
+					<ul data-role="treeview" class="list-code">
+						<li data-caption="<span class='fg-sna'>SNA</span>.<span class='kwd'>color</span>:">
+							<ul>
+								<li data-caption="<span class='pln'>{</span>"></li>
+								<li data-caption="<span class='com'>//Validadores</span>" id="p-c-valid"></li>
+								<li data-caption="<span class='obj'>isHSV</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(v)</span>"></li>
+								<li data-caption="<span class='obj'>isHSL</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(v)</span>"></li>
+								<li data-caption="<span class='obj'>isHSLA</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(v)</span>"></li>
+								<li data-caption="<span class='obj'>isRGB</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(v)</span>"></li>
+								<li data-caption="<span class='obj'>isRGBA</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(v)</span>"></li>
+								<li data-caption="<span class='obj'>isDark</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(v)</span>"></li>
+								<li data-caption="<span class='obj'>isLight</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(v)</span>"></li>
+								<li data-caption="<span class='obj'>isColor</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(v)</span>"></li>
+								<li data-caption="<span class='com'>//Conversores</span>" id="p-c-conv"></li>
+								<li data-caption="<span class='obj'>toHEX</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(color)</span>"></li>
+								<li data-caption="<span class='obj'>toRGB</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(color)</span>"></li>
+								<li data-caption="<span class='obj'>toRGBA</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(color, alpha)</span>"></li>
+								<li data-caption="<span class='obj'>toHSV</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(color)</span>"></li>
+								<li data-caption="<span class='obj'>toHSL</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(color)</span>"></li>
+								<li data-caption="<span class='obj'>toHSLA</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(color, alpha)</span>"></li>
+								<li data-caption="<span class='obj'>toString</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(color)</span>"></li>
+								<li data-caption="<span class='com'>//Herramientas</span>" id="p-c-tool"></li>
+								<li data-caption="<span class='obj'>indent</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(c)</span>"></li>
+								<li data-caption="<span class='obj'>get</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(name)</span>"></li>
+								<li data-caption="<span class='obj'>setColor</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(name, value)</span>"></li>
+								<li data-caption="<span class='com'>//Manejo del Color</span>" id="p-c-maj"></li>
+								<li data-caption="<span class='obj'>darken</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(color, base)</span>"></li>
+								<li data-caption="<span class='obj'>lighten</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(color, base)</span>"></li>
+								<li data-caption="<span class='obj'>saturate</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(color, base)</span>"></li>
+								<li data-caption="<span class='obj'>desaturate</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(color, base)</span>"></li>
+								<li data-caption="<span class='obj'>adjustHue</span><span class='pun'>:</span> <span class='kwd font-oblique'>f</span><span class='pln'>(color, base)</span>"></li>
+								<li data-caption="<span class='pln'>}</span>"></li>
+							</ul>
+						</li>
+					</ul>	
+					<h2 id="utils_lang">Idioma</h2>			
+					<p>
+						SNA a puesto a nuestra disposicion un plugins de idioma que nos permite estabelcer un nuevo idioma, modificar uno existente.
+						dicho plugins se llama <code><span class="fg-sna">SNA</span>.locales</code>, por defecto el sistema trata de obteener el idioma del navegador pero
+						podemos establecer el que desemos.
+					</p>
+					<p>
+						Para crear un nuevo lenguaje  basta con dar en el atributo <code>data-locale</code> un JSON con los nuevos valores.
+						Un ejemplo crearemos el idioma itialino para los botones de compartir redes sociales.
+					</p>
+					<div class="example">
+						<div class="row">
+							<div class="cell-12 cell-md-6">
+								<pre class="prettyprint linenums lang-js">
+									 &lt;div data-role="snashare" data-only="icon" 
+									 data-target="dialog" 
+									 data-size="small" 
+									 data-social="facebook,twitter,instagram" 
+									 data-title="Desierto" 
+									 data-description="#postdata"
+									 data-locale='{"social":{"share":"Condividere", "titleShare":"Condividi su ", "like":"Mi piace", "followme":"Seguiteci su ", "textFollowme": "Seguimi"}}'&gt;
+									 &lt;/div&gt;
+								</pre>
+							</div>
+							<div class="cell-12 cell-md-6">
+								<div class="card image-header" style="width: 300px;">
+									<div class="card-header fg-white" style="background-image: url(docs/img/img11.jpg)">
+										Desierto
+									</div>
+									 <div class="card-content p-2" id="postdata">
+								        <p class="fg-gray">Posteado en Enero 8, 2020</p>
+								        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+								        ultricies efficitur vitae non felis. Phasellus quis nibh
+								        hendrerit...
+								    </div>
+								    <div class="card-footer">
+								       <div data-role="snashare" data-only="icon" data-target="dialog" data-size="small" data-social="facebook,twitter,instagram" data-title="Desierto" data-description="#postdata" 
+								       data-locale='{"social":{"share":"Condividere", "titleShare":"Condividi su ", "like":"Mi piace", "followme":"Seguiteci su ", "textFollowme": "Seguimi"}}'></div>
+								    </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<h3>Estructura del archivo LANG</h3>
+					<pre class="prettyprint linenums lang-js">
+						{
+							'es-VE': {
+								"langText":"Español Venezuela",
+								"social":{
+									'share':'Compartir',
+									'titleShare':'Compartir en',
+									"like":'Me gusta',
+									"followme":"Siguenos en",
+									"textFollowme":"Siguenos"
+								},
+								"mailto":{
+									'write':'Escribenos a',
+									'contact':'Contactanos por',
+									'share':'Compartir vía correo',
+									'to': 'Para',
+									'subject':'Asunto',
+									'message':'Mensaje',
+									'email_address':'¿Cuál es tu correo electrónico',
+									'send':'Enviar',
+									'fullname':'¿Cómo te llamas?'
+								},
+								floating:{
+									'welcome':'Bienvenido a ',
+									'welcome2':'¿En que podemos Ayudarte? '
+								},
+								"buttons": {
+									"ok": "Aceptar",
+									"cancel": "Cancelar",
+									"done": "Hecho",
+									"today": "Hoy",
+									"now": "Ahora",
+									"clear": "Limpiar",
+									"help": "Ayuda",
+									"yes": "Si",
+									"no": "No",
+									"random": "Aleatorio",
+									"save": "Guardar",
+									"reset": "Reiniciar"
+								},
+								"validation":{
+									"email":'Ingrese una dirección de correo válido',
+									"required":'Campo Requerido',
+									"text":"Por favor ingrese un texto válido"
+								}
+							}
+						}
+					</pre>
+				</main>
+			</div>
+		</main>
+		<footer class="bg-sna">
+			<div class="container">
+				<div class="text-center mt-5">
+					<div data-role="snafollowme" data-inline="true" data-cls-item="fg-white" data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757","github":"rep98","linkedin":"robert-e-perez","behance":"roberteperez", "mailto":"delfinmundo@gmail.com"}'></div>
+				</div>
+				<div class="text-center mt-10 fg-white">
+	                <ul class="inline-list reduce-1" id="footer-menu">
+	                    <li><a href="https://github.com/olton/Metro-UI-CSS/blob/master/LICENSE" class="fg-white">Licencia</a></li>
+	                    <li><a href="mailto:delfinmundo@gmail.com" class="fg-white">Autor</a></li>
+	                    <li><a href="https://github.com/olton/Metro-UI-CSS/issues" class="fg-white">Descarga</a></li>
+	                    <li><a href="https://github.com/olton/Metro-UI-CSS/releases" class="fg-white">Releases</a></li>
+	                </ul>
+	            </div>
+	            <div class="text-center mt-10 reduce-1 fg-white">
+	            	Social Networks Admin(SNA <small>Administrador de Redes Sociales</small>)   &copy; 2019-2020 por <span class="d-inline-flex" data-size="small" data-cls-followme="fg-white" data-squema='{"bg":"transparent"}' data-role="snafollowme" data-links='{"mailto":"delfinmundo@gmail.com"}' data-inline="true" data-text="Robert Pérez" data-only="duo"></span>
+	            </div>
+			</div>
+		</footer>
+		<div data-role="snafollowme" data-pos="left-center"
+		data-inline="true" data-cls-item="fg-white"
+		data-links='{"facebook":"rep190","twitter":"Robert_saer","instagram":"robertperez757","github":"rep98","linkedin":"robert-e-perez","behance":"roberteperez", "mailto":"delfinmundo@gmail.com"}'></div>
+		<!-- SCRIPT -->
+		<script src="docs/js/jquery-3.3.1.min.js"></script>
+		<script src="docs/js/metro.js"></script>
+		<script src="dist/js/sna.js"></script>
+    	<script src="docs/google-code-prettify/run_prettify.js?autoload=true" defer="defer"></script>
+		<script src="docs/js/demo.js"></script>
+	</body>
+</html>

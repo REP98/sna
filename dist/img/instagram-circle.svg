@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 511.99998 511.99998"
+   xml:space="preserve"
+   sodipodi:docname="instagram (3).svg"
+   width="512"
+   height="512"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata45"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs43"><linearGradient
+     inkscape:collect="always"
+     id="linearGradient1086"><stop
+       style="stop-color:#405de6;stop-opacity:1"
+       offset="0"
+       id="stop1082" /><stop
+       id="stop1090"
+       offset="0.26646939"
+       style="stop-color:#833ab4;stop-opacity:1" /><stop
+       style="stop-color:#e1306c;stop-opacity:1"
+       offset="0.44977653"
+       id="stop1092" /><stop
+       id="stop1094"
+       offset="0.64552373"
+       style="stop-color:#fd1d1d;stop-opacity:1" /><stop
+       style="stop-color:#f56040;stop-opacity:1"
+       offset="0.7523129"
+       id="stop1096" /><stop
+       style="stop-color:#fcaf45;stop-opacity:1"
+       offset="1"
+       id="stop1084" /></linearGradient><filter
+     style="color-interpolation-filters:sRGB;"
+     inkscape:label="Drop Shadow"
+     id="filter1080"><feFlood
+       flood-opacity="0.498039"
+       flood-color="rgb(0,0,0)"
+       result="flood"
+       id="feFlood1070" /><feComposite
+       in="flood"
+       in2="SourceGraphic"
+       operator="in"
+       result="composite1"
+       id="feComposite1072" /><feGaussianBlur
+       in="composite1"
+       stdDeviation="1"
+       result="blur"
+       id="feGaussianBlur1074" /><feOffset
+       dx="2"
+       dy="2"
+       result="offset"
+       id="feOffset1076" /><feComposite
+       in="SourceGraphic"
+       in2="offset"
+       operator="over"
+       result="composite2"
+       id="feComposite1078" /></filter><linearGradient
+     inkscape:collect="always"
+     xlink:href="#linearGradient1086"
+     id="linearGradient1088"
+     x1="510.27975"
+     y1="-415.72668"
+     x2="1.9279009"
+     y2="83.415367"
+     gradientUnits="userSpaceOnUse" /></defs><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="743"
+   id="namedview41"
+   showgrid="false"
+   inkscape:showpageshadow="false"
+   showguides="true"
+   inkscape:guide-bbox="true"
+   inkscape:zoom="0.46479755"
+   inkscape:cx="46.341074"
+   inkscape:cy="51.911931"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g8"><sodipodi:guide
+     position="352.84178,256.02544"
+     orientation="0,1"
+     id="guide1066"
+     inkscape:locked="false" /><sodipodi:guide
+     position="256.02544,223.75332"
+     orientation="1,0"
+     id="guide1068"
+     inkscape:locked="false" /></sodipodi:namedview>
+<g
+   id="g8"
+   transform="translate(0,422.242)">
+	
+	
+	
+<ellipse
+   style="opacity:1;fill:url(#linearGradient1088);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.69603395;stroke-opacity:1"
+   id="path858"
+   cx="255.02808"
+   cy="-166.15565"
+   rx="254.64775"
+   ry="255.53333" /><g
+   id="g1064"
+   transform="matrix(0.73826261,0,0,0.72996983,70.453748,-352.9666)"
+   style="fill:#ffffff;fill-opacity:1;filter:url(#filter1080)"><path
+     id="path1047"
+     d="M 510.94922,150.5 C 509.75,123.30078 505.35156,104.60156 499.05078,88.398438 492.55078,71.199219 482.55078,55.800781 469.44922,43 456.64844,30 441.14844,19.898438 424.14844,13.5 407.85156,7.199219 389.25,2.800781 362.05078,1.601562 334.64844,0.300781 325.94922,0 256.44922,0 186.94922,0 178.25,0.300781 150.94922,1.5 123.75,2.699219 105.05078,7.101562 88.851562,13.398438 71.648438,19.898438 56.25,29.898438 43.449219,43 c -13,12.800781 -23.097657,28.300781 -29.5,45.300781 C 7.648438,104.60156 3.25,123.19922 2.050781,150.39844 0.75,177.80078 0.449219,186.5 0.449219,256 c 0,69.5 0.300781,78.19922 1.5,105.5 1.199219,27.19922 5.601562,45.89844 11.902343,62.10156 6.5,17.19922 16.597657,32.59766 29.597657,45.39844 C 56.25,482 71.75,492.10156 88.75,498.5 c 16.30078,6.30078 34.89844,10.69922 62.10156,11.89844 27.29688,1.20312 36,1.5 105.5,1.5 69.5,0 78.19922,-0.29688 105.5,-1.5 27.19922,-1.19922 45.89844,-5.59766 62.09766,-11.89844 34.40234,-13.30078 61.60156,-40.5 74.90234,-74.89844 6.29688,-16.30078 10.69922,-34.90234 11.89844,-62.10156 1.19922,-27.30078 1.5,-36 1.5,-105.5 0,-69.5 -0.10156,-78.19922 -1.30078,-105.5 z m -46.09766,209 c -1.10156,25 -5.30078,38.5 -8.80078,47.5 -8.60156,22.30078 -26.30078,40 -48.60156,48.60156 -9,3.5 -22.59766,7.69922 -47.5,8.79688 -27,1.20312 -35.09766,1.5 -103.39844,1.5 -68.30078,0 -76.5,-0.29688 -103.40234,-1.5 -25,-1.09766 -38.5,-5.29688 -47.5,-8.79688 C 94.550781,451.5 84.449219,445 76.25,436.5 c -8.5,-8.30078 -15,-18.30078 -19.101562,-29.39844 -3.5,-9 -7.699219,-22.60156 -8.796876,-47.5 -1.203124,-27 -1.5,-35.10156 -1.5,-103.40234 0,-68.30078 0.296876,-76.5 1.5,-103.39844 1.097657,-25 5.296876,-38.5 8.796876,-47.5 C 61.25,94.199219 67.75,84.101562 76.351562,75.898438 c 8.296876,-8.5 18.296876,-15 29.398438,-19.097657 9,-3.5 22.60156,-7.699219 47.5,-8.800781 27,-1.199219 35.10156,-1.5 103.39844,-1.5 68.40234,0 76.5,0.300781 103.40234,1.5 25,1.101562 38.5,5.300781 47.5,8.800781 11.09766,4.097657 21.19922,10.597657 29.39844,19.097657 8.5,8.300781 15,18.300781 19.10156,29.402342 3.5,9 7.69922,22.59766 8.80078,47.5 1.19922,27 1.5,35.09766 1.5,103.39844 0,68.30078 -0.30078,76.30078 -1.5,103.30078 z m 0,0"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;fill-opacity:1" /><path
+     id="path1049"
+     d="m 256.44922,124.5 c -72.59766,0 -131.5,58.89844 -131.5,131.5 0,72.60156 58.90234,131.5 131.5,131.5 72.60156,0 131.5,-58.89844 131.5,-131.5 0,-72.60156 -58.89844,-131.5 -131.5,-131.5 z m 0,216.80078 c -47.09766,0 -85.30078,-38.19922 -85.30078,-85.30078 0,-47.10156 38.20312,-85.30078 85.30078,-85.30078 47.10156,0 85.30078,38.19922 85.30078,85.30078 0,47.10156 -38.19922,85.30078 -85.30078,85.30078 z m 0,0"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;fill-opacity:1" /><path
+     id="path1051"
+     d="m 423.85156,119.30078 c 0,16.95313 -13.74609,30.69922 -30.70312,30.69922 -16.95313,0 -30.69922,-13.74609 -30.69922,-30.69922 0,-16.95703 13.74609,-30.699218 30.69922,-30.699218 16.95703,0 30.70312,13.742188 30.70312,30.699218 z m 0,0"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;fill-opacity:1" /></g></g>
+<g
+   id="g10"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g12"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g14"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g16"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g18"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g20"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g22"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g24"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g26"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g28"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g30"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g32"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g34"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g36"
+   transform="translate(0,422.242)">
+</g>
+<g
+   id="g38"
+   transform="translate(0,422.242)">
+</g>
+</svg>

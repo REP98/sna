@@ -1,0 +1,134 @@
+/**
+ * =============================================================================================
+ * Hints
+ * =============================================================================================
+ */
+.hints{
+	display:block;
+	padding: 10px 8px;
+	font-size: 1rem;
+	z-index: 2000;
+	background-color: map-get($colors,"black");
+	border-radius: 2px;
+	color:  map-get($colors,"white");
+	min-height: 36px;
+	line-height: 120%;
+	position: fixed;
+	text-align: center;
+	max-width: calc(100% - 4px);
+	pointer-events: none;
+	@extend .shadow-drop;
+
+	&::before{
+		content: "";
+		position: absolute;
+		background: transparent;
+		border: 8px solid transparent;
+		z-index: 2000;
+	}
+	&.show{
+		opacity: 1;
+		visibility: visible;
+	}
+	&.top{
+		&::before{
+			border-top-color: map-get($colors,"black");
+			left: 50%;
+			top: 100%;
+		}
+		&-left{
+			&::before{
+				border-top-color: map-get($colors,"black");
+				right: 2%;
+				top: 100%;
+			}
+		}
+		&-right{
+			&::before{
+				border-top-color: map-get($colors,"black");
+				left: 0%;
+				top: 100%;
+			}
+		}
+	}
+	&.left{
+		&::before{
+			border-left-color: map-get($colors,"black");
+			left: 100%;
+			top: 30%;
+		}
+	}
+	&.right{
+		&::before{
+			border-right-color: map-get($colors,"black");
+			right: 100%;
+			top: 30%;
+		}
+	}
+	&.bottom{
+		&::before{
+			border-bottom-color: map-get($colors,"black");
+			left: 50%;
+			bottom: 100%;
+		}
+		&-left{
+			&::before{
+				border-bottom-color: map-get($colors,"black");
+				right: 2%;
+				bottom: 100%;
+			}
+		}
+		&-right{
+			&::before{
+				border-bottom-color: map-get($colors,"black");
+				left: 0%;
+				bottom: 100%;
+			}
+		}
+	}
+	&:not(.h2o){
+		& .icons{
+			float: left;
+			width: 24px;
+			height: 24px;
+			font-size: 1.1rem;
+		}
+		& .icons + .hints-title{
+			width: calc(100% - 24px);
+		}
+	}
+	&.h2o{
+		width: 2.7rem;
+		height: 2.7rem;
+		
+		&::before{
+			border: 0px solid transparent !important;
+		}
+		&.top,
+		&.bottom{
+			transform: rotate(-45deg);
+			& .icons, & .shi,
+			& .hints-title{
+				transform: rotate(45deg);
+				display: block;
+			}
+		}
+		&.left,
+		&.right{
+			transform: rotate(45deg);
+			& .icons, & .shi,
+			& .hints-title{
+				transform: rotate(-45deg);
+				display: block;
+			}
+		}
+		&.top{
+			border-radius: 50% 50% 50% 0%;
+		}
+		&.bottom{
+			border-radius: 50% 0% 50% 50%; 
+		}
+		&.right{ border-radius: 50% 50% 50% 0%; }
+		&.left{ border-radius: 50% 0% 50% 50%; }
+	}
+}

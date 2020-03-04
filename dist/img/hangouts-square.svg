@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="-31 0 512 512"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="hangouts-square.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="743"
+     id="namedview6"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="-154.0339"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <rect
+     style="opacity:1;fill:#0f9d58;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect831"
+     width="514.16949"
+     height="512"
+     x="-33.169491"
+     y="0" />
+  <path
+     d="m 229.33899,446.91526 c 86.12103,0 159.91525,-111.60054 159.91525,-202.38136 0,-87.79551 -71.73421,-159.923731 -159.91525,-159.923731 -88.18105,0 -159.915262,72.128221 -159.915262,159.923731 0,84.22145 66.026122,154.08858 149.254232,159.57268 v 42.80868 z m 21.32203,-244.83898 h 63.96611 v 63.68644 c 0,23.41527 -19.12599,42.45763 -42.64407,42.45763 v -42.45763 h -21.32204 z m -42.64407,63.68644 c 0,23.41527 -19.12597,42.45763 -42.64407,42.45763 v -42.45763 h -21.32203 v -63.68644 h 63.9661 z m 0,0"
+     id="path2"
+     inkscape:connector-curvature="0"
+     style="stroke-width:0.7091791;fill:#ffffff" />
+</svg>
