@@ -32,6 +32,15 @@ Para usarlo copie la carpeta dist y lib y el archivo config.json a su proyecto l
 <link rel="stylesheet" type="text/css" href="dist/css/sna.css"><!-- En el Head -->
 <script src="dist/js/sna.js"></script> <!-- Antes del cierre del Body -->
 ```
+Ademas de clonar el proyecto podemos instalarlo via composer
+```
+composer require rep98/sna
+```
+y luego cambienmos las rutas quedando asi:
+```
+<link rel="stylesheet" type="text/css" href="vendor/sna/dist/css/sna.css"><!-- En el Head -->
+<script src="vendor/sna/dist/js/sna.js"></script> <!-- Antes del cierre del Body -->
+```
 
 <a id="depn"></a>
 ## Dependencias
