@@ -1,4 +1,5 @@
 # <h1 style="font-size: 3rem; line-height: 1.1; font-weight: 100">Social Networks Admin</h1>
+## *Este respositorio sera de solo lectura para uso educativo*
 ### <h3 style="font-size: 1.5rem; line-height: 1.1; font-weight: 200">Plugins de gestion de redes sociales</h3>
 
 * Autor: Robert Pérez
